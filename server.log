@@ -1,0 +1,9 @@
+INFO:     Will watch for changes in these directories: ['/Users/kimyoume/Desktop/malcard-backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8645] using StatReload
+INFO:     Started server process [8649]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/424 [00:00<?, ?it/s]Loading weights: 100%|██████████| 424/424 [00:00<00:00, 115742.59it/s]
+INFO:     127.0.0.1:50207 - "POST /analysis/full HTTP/1.1" 500 Internal Server Error
