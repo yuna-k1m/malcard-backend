@@ -59,3 +59,12 @@ async def full(
     finally:
         if tmp_path and os.path.exists(tmp_path):
             os.remove(tmp_path)
+@router.post("/feedback")
+async def feedback(body: dict):
+    try:
+        llm_feedback_input = body.get("llm_feedback_input", {})
+        from app.adapters.feedback_adapter import run_feedback
+        result = run_feedback(llm_feedback_input)
+        return {"feedback": result}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"code": "PIPELINE_ERROR", "message": str(e)})
