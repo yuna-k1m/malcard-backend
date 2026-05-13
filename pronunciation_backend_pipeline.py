@@ -38,7 +38,7 @@ from src.types import (
 )
 
 
-COARSE_SIMILARITY_THRESHOLD = 25.0
+COARSE_SIMILARITY_THRESHOLD = 75.0
 
 
 @dataclass
@@ -192,23 +192,39 @@ def alignment_confidence_gate(ctx: PipelineContext) -> EvaluationResult | None:
     """Check whether the frame-level forced alignment is reliable enough."""
 
     assert ctx.coarse_alignment is not None and ctx.forced_alignment is not None and ctx.recognition is not None
+
     ctx.alignment_confidence = assess_alignment_confidence(ctx.forced_alignment)
+
     if ctx.alignment_confidence.passed:
         return None
+
+    # Forced alignment가 실패해도 coarse alignment 기반 점수는 분석용으로 저장한다.
+    # 단, 이 점수는 최종 점수가 아니라 debug/reference용이다.
+    ctx.score_breakdown = build_score_breakdown(ctx.coarse_alignment)
+    issues = classify_alignment_errors(ctx.coarse_alignment, profile=ctx.profile)
+    ctx.feedback_report = build_feedback_report(issues, ctx.score_breakdown, profile=ctx.profile)
 
     return make_evaluation_result(
         ctx,
         status="discarded",
-        message="Forced alignment confidence gate failed. The result should not be used for scoring.",
+        message=(
+            "Forced alignment confidence gate failed. "
+            "Coarse score is provided for debugging, but should not be used as final pronunciation score."
+        ),
         alignment_result=ctx.coarse_alignment,
         forced_alignment_result=ctx.forced_alignment,
         alignment_confidence_report=ctx.alignment_confidence,
+        score_breakdown=ctx.score_breakdown,
+        feedback_report=ctx.feedback_report,
         debug={
             "audio_quality_gate_passed": ctx.recognition.quality_report.passed if ctx.recognition.quality_report else None,
             "coarse_token_alignment_gate_passed": True,
             "alignment_confidence_gate_passed": False,
             "coarse_similarity": ctx.coarse_alignment.normalized_score,
             "coarse_similarity_threshold": ctx.coarse_similarity_threshold,
+            "score_source": "coarse_token_alignment",
+            "score_is_final": False,
+            "score_available_for_debug": True,
         },
     )
 
@@ -249,6 +265,9 @@ def make_ready_result(ctx: PipelineContext) -> EvaluationResult:
             "frame_confidence_preview": ctx.recognition.frame_confidence[:10] if ctx.recognition.frame_confidence else [],
             "frame_timestamp_preview": ctx.recognition.frame_timestamps[:10] if ctx.recognition.frame_timestamps else [],
             "selected_candidate_notes": ctx.coarse_alignment.selected_reference_candidate.notes,
+            "score_source": "coarse_token_alignment",
+            "score_is_final": True,
+            "score_available_for_debug": True,
         },
     )
 
