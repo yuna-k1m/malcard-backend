@@ -1,0 +1,3604 @@
+[
+  {
+    "id": "unit1_01",
+    "title": "보건실",
+    "icon": "🏥",
+    "location": "학교 보건실",
+    "level": 1,
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "보건 선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "jimin",
+        "name": "저밍",
+        "avatar": "저"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "어디가 아파요?"
+      },
+      {
+        "character": "jimin",
+        "text": "어깨가 아파요."
+      },
+      {
+        "character": "teacher",
+        "text": "어디가 아파요?"
+      },
+      {
+        "character": "jimin",
+        "text": "목이 아파요."
+      },
+      {
+        "character": "teacher",
+        "text": "어디가 아파요?"
+      },
+      {
+        "character": "jimin",
+        "text": "배가 아파요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit1_01_p1",
+        "sentence": "나는 지난주에 배가 아팠어요.",
+        "answer": [
+          "나는",
+          "지난주에",
+          "배가",
+          "아팠어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_01_p2",
+        "sentence": "무릎이 아파서 걷기가 힘들어요.",
+        "answer": [
+          "무릎이",
+          "아파서",
+          "걷기가",
+          "힘들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_01_p3",
+        "sentence": "손에 상처가 나서 소독을 했어요.",
+        "answer": [
+          "손에",
+          "상처가",
+          "나서",
+          "소독을",
+          "했어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 1,
+    "unit_title": "뛰다가 넘어졌어요"
+  },
+  {
+    "id": "unit1_02",
+    "title": "사고",
+    "icon": "🤕",
+    "location": "집 / 운동장",
+    "level": 2,
+    "characters": [
+      {
+        "id": "abigail",
+        "name": "아비가일",
+        "avatar": "아"
+      },
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "어디가 아파요?"
+      },
+      {
+        "character": "abigail",
+        "text": "무릎이 아파요."
+      },
+      {
+        "character": "teacher",
+        "text": "어떻게 하다가 다쳤어요?"
+      },
+      {
+        "character": "abigail",
+        "text": "시소를 타다가 넘어졌어요."
+      },
+      {
+        "character": "teacher",
+        "text": "또 어디 다친 곳 있어요?"
+      },
+      {
+        "character": "abigail",
+        "text": "자전거를 타다가 돌과 부딪혔어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit1_02_p1",
+        "sentence": "라면을 끓이다가 손을 데었어요.",
+        "answer": [
+          "라면을",
+          "끓이다가",
+          "손을",
+          "데었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p2",
+        "sentence": "자전거를 타다가 돌과 부딪혔어요.",
+        "answer": [
+          "자전거를",
+          "타다가",
+          "돌과",
+          "부딪혔어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p3",
+        "sentence": "축구를 하다가 발목을 삐었어요.",
+        "answer": [
+          "축구를",
+          "하다가",
+          "발목을",
+          "삐었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p4",
+        "sentence": "종이를 자르다가 손을 베었어요.",
+        "answer": [
+          "종이를",
+          "자르다가",
+          "손을",
+          "베었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p5",
+        "sentence": "철봉에 매달리다가 떨어졌어요.",
+        "answer": [
+          "철봉에",
+          "매달리다가",
+          "떨어졌어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p6",
+        "sentence": "요리를 하다가 손을 베었어요.",
+        "answer": [
+          "요리를",
+          "하다가",
+          "손을",
+          "베었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_02_p7",
+        "sentence": "뛰다가 넘어져서 무릎을 다쳤어요.",
+        "answer": [
+          "뛰다가",
+          "넘어져서",
+          "무릎을",
+          "다쳤어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 1,
+    "unit_title": "뛰다가 넘어졌어요"
+  },
+  {
+    "id": "unit1_03",
+    "title": "증상",
+    "icon": "🤒",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      },
+      {
+        "id": "dad",
+        "name": "아빠",
+        "avatar": "아"
+      },
+      {
+        "id": "jimin",
+        "name": "저밍",
+        "avatar": "저"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "aida",
+        "text": "아빠, 눈이 간지럽고 아파요."
+      },
+      {
+        "character": "dad",
+        "text": "눈병인 것 같은데, 눈을 만지지 마라."
+      },
+      {
+        "character": "aida",
+        "text": "엄마, 이가 아파서 밥을 못 먹겠어요."
+      },
+      {
+        "character": "mom",
+        "text": "충치인 것 같은데 치과에 가 보자."
+      },
+      {
+        "character": "jimin",
+        "text": "아빠, 배가 아프고 설사를 해요."
+      },
+      {
+        "character": "dad",
+        "text": "배탈이 난 것 같은데 약을 먹자."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit1_03_p1",
+        "sentence": "눈이 간지럽고 아파요.",
+        "answer": [
+          "눈이",
+          "간지럽고",
+          "아파요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_03_p2",
+        "sentence": "이가 아파서 밥을 못 먹겠어요.",
+        "answer": [
+          "이가",
+          "아파서",
+          "밥을",
+          "못",
+          "먹겠어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_03_p3",
+        "sentence": "배가 아프고 설사를 해요.",
+        "answer": [
+          "배가",
+          "아프고",
+          "설사를",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_03_p4",
+        "sentence": "눈병인 것 같은데 병원에 가 보자.",
+        "answer": [
+          "눈병인",
+          "것",
+          "같은데",
+          "병원에",
+          "가",
+          "보자."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_03_p5",
+        "sentence": "충치인 것 같은데 치과에 가 보자.",
+        "answer": [
+          "충치인",
+          "것",
+          "같은데",
+          "치과에",
+          "가",
+          "보자."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_03_p6",
+        "sentence": "배탈이 난 것 같은데 약을 먹자.",
+        "answer": [
+          "배탈이",
+          "난",
+          "것",
+          "같은데",
+          "약을",
+          "먹자."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 1,
+    "unit_title": "뛰다가 넘어졌어요"
+  },
+  {
+    "id": "unit1_04",
+    "title": "병원",
+    "icon": "💊",
+    "location": "병원",
+    "level": 2,
+    "characters": [
+      {
+        "id": "doctor",
+        "name": "의사",
+        "avatar": "의"
+      },
+      {
+        "id": "patient",
+        "name": "환자",
+        "avatar": "환"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "patient",
+        "text": "배탈이 났어요. 배가 아프고 설사를 해요."
+      },
+      {
+        "character": "doctor",
+        "text": "하루 세 번, 밥을 먹은 다음에 약을 드세요."
+      },
+      {
+        "character": "patient",
+        "text": "라면을 끓이다가 손을 데었어요."
+      },
+      {
+        "character": "doctor",
+        "text": "하루 두 번, 소독을 한 다음에 연고를 발라요."
+      },
+      {
+        "character": "patient",
+        "text": "무릎에 상처가 났어요."
+      },
+      {
+        "character": "doctor",
+        "text": "소독을 한 다음에 연고를 발라요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit1_04_p1",
+        "sentence": "밥을 먹은 다음에 깨끗하게 이를 닦아요.",
+        "answer": [
+          "밥을",
+          "먹은",
+          "다음에",
+          "깨끗하게",
+          "이를",
+          "닦아요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p2",
+        "sentence": "소독을 한 다음에 연고를 발라요.",
+        "answer": [
+          "소독을",
+          "한",
+          "다음에",
+          "연고를",
+          "발라요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p3",
+        "sentence": "하루에 두 번 안약을 넣어요.",
+        "answer": [
+          "하루에",
+          "두 번",
+          "안약을",
+          "넣어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p4",
+        "sentence": "하루에 한 번 파스를 붙여요.",
+        "answer": [
+          "하루에",
+          "한 번",
+          "파스를",
+          "붙여요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p5",
+        "sentence": "무릎에 상처가 나면 소독을 해요.",
+        "answer": [
+          "무릎에",
+          "상처가",
+          "나면",
+          "소독을",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p6",
+        "sentence": "발목을 삐면 파스를 붙여요.",
+        "answer": [
+          "발목을",
+          "삐면",
+          "파스를",
+          "붙여요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p7",
+        "sentence": "눈병에 걸리면 안과에 가야 해요.",
+        "answer": [
+          "눈병에",
+          "걸리면",
+          "안과에",
+          "가야",
+          "해요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit1_04_p8",
+        "sentence": "하루에 세 번 밥을 먹은 다음에 약을 드세요.",
+        "answer": [
+          "하루에",
+          "세 번",
+          "밥을",
+          "먹은",
+          "다음에",
+          "약을",
+          "드세요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 1,
+    "unit_title": "뛰다가 넘어졌어요"
+  },
+  {
+    "id": "unit2_01",
+    "title": "할 수 있는 일",
+    "icon": "🏊",
+    "location": "학교",
+    "level": 1,
+    "characters": [
+      {
+        "id": "friend1",
+        "name": "친구1",
+        "avatar": "친"
+      },
+      {
+        "id": "friend2",
+        "name": "친구2",
+        "avatar": "구"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend1",
+        "text": "수영을 할 줄 아니?"
+      },
+      {
+        "character": "friend2",
+        "text": "응, 나는 수영을 할 줄 알아."
+      },
+      {
+        "character": "friend1",
+        "text": "자전거를 탈 줄 아니?"
+      },
+      {
+        "character": "friend2",
+        "text": "아니, 나는 자전거를 탈 줄 몰라."
+      },
+      {
+        "character": "friend1",
+        "text": "종이접기를 할 줄 아니?"
+      },
+      {
+        "character": "friend2",
+        "text": "응, 나는 종이접기를 할 줄 알아."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit2_01_p1",
+        "sentence": "나는 수영을 할 줄 알아.",
+        "answer": [
+          "나는",
+          "수영을",
+          "할 줄",
+          "알아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_01_p2",
+        "sentence": "나는 자전거를 탈 줄 몰라.",
+        "answer": [
+          "나는",
+          "자전거를",
+          "탈 줄",
+          "몰라."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_01_p3",
+        "sentence": "나는 리코더를 불 줄 알아.",
+        "answer": [
+          "나는",
+          "리코더를",
+          "불 줄",
+          "알아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_01_p4",
+        "sentence": "나는 피아노를 칠 줄 몰라.",
+        "answer": [
+          "나는",
+          "피아노를",
+          "칠 줄",
+          "몰라."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_01_p5",
+        "sentence": "종이접기를 할 줄 아니?",
+        "answer": [
+          "종이접기를",
+          "할 줄",
+          "아니?"
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ],
+    "unit": 2,
+    "unit_title": "수영을 할 줄 알아요"
+  },
+  {
+    "id": "unit2_02",
+    "title": "배우고 싶은 것",
+    "icon": "🎻",
+    "location": "학교 복도",
+    "level": 2,
+    "characters": [
+      {
+        "id": "yuta",
+        "name": "요우타",
+        "avatar": "요"
+      },
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuta",
+        "text": "아이다, 수업 끝나고 나랑 같이 자전거 탈래?"
+      },
+      {
+        "character": "aida",
+        "text": "미안해. 수업 끝나자마자 방과 후 교실에 가야 해."
+      },
+      {
+        "character": "yuta",
+        "text": "방과 후 교실에서 무엇을 배우는데?"
+      },
+      {
+        "character": "aida",
+        "text": "응, 바이올린을 배우는데 재미있지만 좀 어려워."
+      },
+      {
+        "character": "yuta",
+        "text": "나랑 같이 마술을 배울래?"
+      },
+      {
+        "character": "aida",
+        "text": "아니, 나는 종이접기를 배우고 싶어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit2_02_p1",
+        "sentence": "수업 끝나자마자 방과 후 교실에 가야 해.",
+        "answer": [
+          "수업",
+          "끝나자마자",
+          "방과 후",
+          "교실에",
+          "가야 해."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_02_p2",
+        "sentence": "바이올린을 배우는데 재미있지만 좀 어려워.",
+        "answer": [
+          "바이올린을",
+          "배우는데",
+          "재미있지만",
+          "좀",
+          "어려워."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_02_p3",
+        "sentence": "나는 종이접기를 배우고 싶어.",
+        "answer": [
+          "나는",
+          "종이접기를",
+          "배우고",
+          "싶어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_02_p4",
+        "sentence": "나는 음악 줄넘기를 배우고 싶어.",
+        "answer": [
+          "나는",
+          "음악",
+          "줄넘기를",
+          "배우고",
+          "싶어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_02_p5",
+        "sentence": "나는 춤을 배우고 싶어.",
+        "answer": [
+          "나는",
+          "춤을",
+          "배우고",
+          "싶어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_02_p6",
+        "sentence": "수업 끝나자마자 같이 놀래?",
+        "answer": [
+          "수업",
+          "끝나자마자",
+          "같이",
+          "놀래?"
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 2,
+    "unit_title": "수영을 할 줄 알아요"
+  },
+  {
+    "id": "unit2_03",
+    "title": "경험한 일",
+    "icon": "🐟",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "friend1",
+        "name": "친구1",
+        "avatar": "친"
+      },
+      {
+        "id": "friend2",
+        "name": "친구2",
+        "avatar": "구"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend1",
+        "text": "너는 기차를 탄 적이 있어?"
+      },
+      {
+        "character": "friend2",
+        "text": "응, 나는 기차를 탄 적이 있어."
+      },
+      {
+        "character": "friend1",
+        "text": "너는 금붕어를 기른 적이 있어?"
+      },
+      {
+        "character": "friend2",
+        "text": "아니, 나는 금붕어를 기른 적이 없어."
+      },
+      {
+        "character": "friend1",
+        "text": "너는 강아지를 키운 적이 있어?"
+      },
+      {
+        "character": "friend2",
+        "text": "응, 나는 강아지를 키운 적이 있어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit2_03_p1",
+        "sentence": "나는 기차를 탄 적이 있어.",
+        "answer": [
+          "나는",
+          "기차를",
+          "탄 적이",
+          "있어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_03_p2",
+        "sentence": "나는 금붕어를 기른 적이 없어.",
+        "answer": [
+          "나는",
+          "금붕어를",
+          "기른 적이",
+          "없어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_03_p3",
+        "sentence": "나는 강아지를 키운 적이 있어.",
+        "answer": [
+          "나는",
+          "강아지를",
+          "키운 적이",
+          "있어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_03_p4",
+        "sentence": "나는 여행을 간 적이 있어.",
+        "answer": [
+          "나는",
+          "여행을",
+          "간 적이",
+          "있어."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_03_p5",
+        "sentence": "나는 영화를 본 적이 없어.",
+        "answer": [
+          "나는",
+          "영화를",
+          "본 적이",
+          "없어."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 2,
+    "unit_title": "수영을 할 줄 알아요"
+  },
+  {
+    "id": "unit2_04",
+    "title": "하고 싶은 것",
+    "icon": "🥋",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "jimin",
+        "name": "지민",
+        "avatar": "지"
+      },
+      {
+        "id": "sungwoo",
+        "name": "성우",
+        "avatar": "성"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jimin",
+        "text": "성우야, 학예 발표회 때 뭐 할 거야?"
+      },
+      {
+        "character": "sungwoo",
+        "text": "나는 태권도를 할 거야."
+      },
+      {
+        "character": "jimin",
+        "text": "너, 태권도 할 줄 알아?"
+      },
+      {
+        "character": "sungwoo",
+        "text": "그럼, 태권도는 자신 있지. 너도 나랑 같이 태권도 할래?"
+      },
+      {
+        "character": "jimin",
+        "text": "난 태권도를 배운 적이 없어서 못 해."
+      },
+      {
+        "character": "sungwoo",
+        "text": "내가 가르쳐 줄게. 나한테 배워 볼래?"
+      },
+      {
+        "character": "jimin",
+        "text": "한 번도 해 본 적은 없지만 열심히 해 볼게."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit2_04_p1",
+        "sentence": "나는 태권도를 할 거야.",
+        "answer": [
+          "나는",
+          "태권도를",
+          "할 거야."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_04_p2",
+        "sentence": "난 태권도를 배운 적이 없어서 못 해.",
+        "answer": [
+          "난",
+          "태권도를",
+          "배운 적이",
+          "없어서",
+          "못 해."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_04_p3",
+        "sentence": "한 번도 해 본 적은 없지만 열심히 해 볼게.",
+        "answer": [
+          "한 번도",
+          "해 본",
+          "적은",
+          "없지만",
+          "열심히",
+          "해 볼게."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_04_p4",
+        "sentence": "태권도는 자신 있지.",
+        "answer": [
+          "태권도는",
+          "자신",
+          "있지."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit2_04_p5",
+        "sentence": "내가 가르쳐 줄게. 나한테 배워 볼래?",
+        "answer": [
+          "내가",
+          "가르쳐 줄게.",
+          "나한테",
+          "배워",
+          "볼래?"
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 2,
+    "unit_title": "수영을 할 줄 알아요"
+  },
+  {
+    "id": "unit3_01",
+    "title": "체험 학습 준비",
+    "icon": "🎒",
+    "location": "교실",
+    "level": 1,
+    "characters": [
+      {
+        "id": "jimin",
+        "name": "지민",
+        "avatar": "지"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jimin",
+        "text": "엄마, 우리 학교에서 다음 주 화요일에 체험 학습을 가요."
+      },
+      {
+        "character": "mom",
+        "text": "그래? 어디로 가는데?"
+      },
+      {
+        "character": "jimin",
+        "text": "과학관이요. 과학 체험도 하고 영화도 볼 거예요."
+      },
+      {
+        "character": "mom",
+        "text": "재미있겠다. 준비물이 뭐니?"
+      },
+      {
+        "character": "jimin",
+        "text": "준비물은 없어요."
+      },
+      {
+        "character": "mom",
+        "text": "그래, 알았다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit3_01_p1",
+        "sentence": "5월 17일 금요일에 서울대공원에 가요.",
+        "answer": [
+          "5월 17일",
+          "금요일에",
+          "서울대공원에",
+          "가요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_01_p2",
+        "sentence": "동물에게 먹이를 주고 싶어요.",
+        "answer": [
+          "동물에게",
+          "먹이를",
+          "주고",
+          "싶어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_01_p3",
+        "sentence": "친구들하고 같이 도시락을 먹고 싶어요.",
+        "answer": [
+          "친구들하고",
+          "같이",
+          "도시락을",
+          "먹고",
+          "싶어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_01_p4",
+        "sentence": "준비물은 간식, 돗자리, 물이에요.",
+        "answer": [
+          "준비물은",
+          "간식,",
+          "돗자리,",
+          "물이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_01_p5",
+        "sentence": "놀이 기구를 타고 동물원을 구경할 거예요.",
+        "answer": [
+          "놀이 기구를",
+          "타고",
+          "동물원을",
+          "구경할",
+          "거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 3,
+    "unit_title": "친구하고 같이 체험 학습을 가요"
+  },
+  {
+    "id": "unit3_02",
+    "title": "체험 학습 모둠",
+    "icon": "👥",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "jiming",
+        "name": "저밍",
+        "avatar": "저"
+      },
+      {
+        "id": "riam",
+        "name": "리암",
+        "avatar": "리"
+      },
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "체험 학습을 갈 때 어떻게 모둠을 만들고 싶어요? 저밍, 말해 보세요."
+      },
+      {
+        "character": "jiming",
+        "text": "저는 친한 친구끼리 모둠을 하고 싶어요."
+      },
+      {
+        "character": "teacher",
+        "text": "리암은요?"
+      },
+      {
+        "character": "riam",
+        "text": "저는 친구를 많이 사귀고 싶어요. 그러니까 번호대로 모둠을 만들어 주세요."
+      },
+      {
+        "character": "teacher",
+        "text": "남자끼리, 여자끼리 모둠을 만드는 건 어때요?"
+      },
+      {
+        "character": "jiming",
+        "text": "저는 친한 친구끼리 모둠을 만들자고 하고 싶어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit3_02_p1",
+        "sentence": "저는 친한 친구끼리 모둠을 하고 싶어요.",
+        "answer": [
+          "저는",
+          "친한",
+          "친구끼리",
+          "모둠을",
+          "하고",
+          "싶어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_02_p2",
+        "sentence": "번호대로 모둠을 만들어 주세요.",
+        "answer": [
+          "번호대로",
+          "모둠을",
+          "만들어",
+          "주세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_02_p3",
+        "sentence": "남자끼리 모둠을 만들자.",
+        "answer": [
+          "남자끼리",
+          "모둠을",
+          "만들자."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_02_p4",
+        "sentence": "동물하고 사람을 섞어서 네 명씩 모둠을 만들자.",
+        "answer": [
+          "동물하고",
+          "사람을",
+          "섞어서",
+          "네 명씩",
+          "모둠을",
+          "만들자."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 3,
+    "unit_title": "친구하고 같이 체험 학습을 가요"
+  },
+  {
+    "id": "unit3_03",
+    "title": "안전 교육",
+    "icon": "🦺",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "students",
+        "name": "학생들",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "여러분, 체험 학습을 가니까 안전벨트를 매세요."
+      },
+      {
+        "character": "students",
+        "text": "네, 알겠습니다."
+      },
+      {
+        "character": "teacher",
+        "text": "체험 학습에 가서 혼자 돌아다니면 돼요, 안 돼요?"
+      },
+      {
+        "character": "students",
+        "text": "안 돼요!"
+      },
+      {
+        "character": "teacher",
+        "text": "그리고 체험 학습 장소에서 뛰면 안 돼요. 질서를 지켜야 돼요."
+      },
+      {
+        "character": "students",
+        "text": "네, 알겠습니다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit3_03_p1",
+        "sentence": "혼자 돌아다니지 않겠습니다.",
+        "answer": [
+          "혼자",
+          "돌아다니지",
+          "않겠습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p2",
+        "sentence": "줄을 서서 구경해야 해요.",
+        "answer": [
+          "줄을",
+          "서서",
+          "구경해야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p3",
+        "sentence": "미술 작품을 만지면 안 돼요.",
+        "answer": [
+          "미술",
+          "작품을",
+          "만지면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p4",
+        "sentence": "친구 손을 잡고 함께 다녀야 해요.",
+        "answer": [
+          "친구",
+          "손을",
+          "잡고",
+          "함께",
+          "다녀야",
+          "해요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p5",
+        "sentence": "체험 학습 장소에서 질서를 지켜야 돼요.",
+        "answer": [
+          "체험 학습",
+          "장소에서",
+          "질서를",
+          "지켜야",
+          "돼요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p6",
+        "sentence": "체험 학습을 가니까 안전벨트를 매세요.",
+        "answer": [
+          "체험 학습을",
+          "가니까",
+          "안전벨트를",
+          "매세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_03_p7",
+        "sentence": "체험 학습 장소에서 뛰면 안 돼요.",
+        "answer": [
+          "체험 학습",
+          "장소에서",
+          "뛰면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 3,
+    "unit_title": "친구하고 같이 체험 학습을 가요"
+  },
+  {
+    "id": "unit3_04",
+    "title": "체험 학습 보고서",
+    "icon": "📝",
+    "location": "서울대공원 동물원",
+    "level": 2,
+    "characters": [
+      {
+        "id": "sungwoo",
+        "name": "성우",
+        "avatar": "성"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "sungwoo",
+        "text": "동물원에서 아기 양을 봤어. 아주 귀여웠어."
+      },
+      {
+        "character": "friend",
+        "text": "나는 누에고치에서 실을 뽑았어. 아주 신기했어."
+      },
+      {
+        "character": "sungwoo",
+        "text": "그리고 친구하고 같이 양에게 먹이를 줬어. 정말 재미있었어."
+      },
+      {
+        "character": "friend",
+        "text": "동물원에 또 가고 싶다."
+      },
+      {
+        "character": "sungwoo",
+        "text": "나도! 다음엔 코끼리도 보고 싶어."
+      },
+      {
+        "character": "friend",
+        "text": "우리 같이 또 오자!"
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit3_04_p1",
+        "sentence": "동물원에서 아기 양을 보았어요.",
+        "answer": [
+          "동물원에서",
+          "아기",
+          "양을",
+          "보았어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_04_p2",
+        "sentence": "아기 양이 정말 귀여웠어요.",
+        "answer": [
+          "아기",
+          "양이",
+          "정말",
+          "귀여웠어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_04_p3",
+        "sentence": "누에고치에서 실을 뽑았어요. 아주 신기했어요.",
+        "answer": [
+          "누에고치에서",
+          "실을",
+          "뽑았어요.",
+          "아주",
+          "신기했어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_04_p4",
+        "sentence": "친구하고 같이 양에게 먹이를 줬어요.",
+        "answer": [
+          "친구하고",
+          "같이",
+          "양에게",
+          "먹이를",
+          "줬어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit3_04_p5",
+        "sentence": "동물원에 또 가고 싶다.",
+        "answer": [
+          "동물원에",
+          "또",
+          "가고",
+          "싶다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 3,
+    "unit_title": "친구하고 같이 체험 학습을 가요"
+  },
+  {
+    "id": "unit4_01",
+    "title": "알림장",
+    "icon": "📋",
+    "location": "집",
+    "level": 1,
+    "characters": [
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "aida",
+        "text": "오늘 숙제가 뭐니?"
+      },
+      {
+        "character": "mom",
+        "text": "잠깐만요, 알림장을 볼게요."
+      },
+      {
+        "character": "aida",
+        "text": "숙제 1: 수익 24쪽 풀기, 숙제 2: 책 읽기 30분이요."
+      },
+      {
+        "character": "mom",
+        "text": "가정 통신문은 뭐래?"
+      },
+      {
+        "character": "aida",
+        "text": "11월 급식 안내래요."
+      },
+      {
+        "character": "mom",
+        "text": "준비물은 줄넘기구나."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit4_01_p1",
+        "sentence": "수학 익힘책 24쪽을 풀어야 해요.",
+        "answer": [
+          "수학",
+          "익힘책",
+          "24쪽을",
+          "풀어야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_01_p2",
+        "sentence": "책을 30분 동안 읽어야 해요.",
+        "answer": [
+          "책을",
+          "30분",
+          "동안",
+          "읽어야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_01_p3",
+        "sentence": "가정 통신문은 부모님께 드려야 해요.",
+        "answer": [
+          "가정",
+          "통신문은",
+          "부모님께",
+          "드려야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_01_p5",
+        "sentence": "복도에서 뛰지 않아요.",
+        "answer": [
+          "복도에서",
+          "뛰지",
+          "않아요."
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ],
+    "unit": 4,
+    "unit_title": "숙제를 다 하고 놀자고 했어요"
+  },
+  {
+    "id": "unit4_02",
+    "title": "오늘의 숙제",
+    "icon": "📚",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "sungwoo",
+        "name": "성우",
+        "avatar": "성"
+      },
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "sungwoo",
+        "text": "나는 아무리 피곤해도 숙제를 할 거예요."
+      },
+      {
+        "character": "sungwoo",
+        "text": "나는 아무리 졸려도 공부를 할 거예요."
+      },
+      {
+        "character": "sungwoo",
+        "text": "나는 화가 나도 나쁜 말을 하지 않을 거예요."
+      },
+      {
+        "character": "teacher",
+        "text": "나는 아무리 시간이 없어도 밥을 먹을 거예요."
+      },
+      {
+        "character": "teacher",
+        "text": "나는 아무리 졸려도 이를 닦고 잘 거예요."
+      },
+      {
+        "character": "teacher",
+        "text": "아무리 힘들어도 내 방 청소는 해야 해요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit4_02_p1",
+        "sentence": "나는 아무리 피곤해도 숙제를 할 거예요.",
+        "answer": [
+          "나는",
+          "아무리",
+          "피곤해도",
+          "숙제를",
+          "할 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_02_p2",
+        "sentence": "나는 아무리 시간이 없어도 밥을 먹을 거예요.",
+        "answer": [
+          "나는",
+          "아무리",
+          "시간이",
+          "없어도",
+          "밥을",
+          "먹을 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_02_p3",
+        "sentence": "나는 아무리 졸려도 이를 닦고 잘 거예요.",
+        "answer": [
+          "나는",
+          "아무리",
+          "졸려도",
+          "이를",
+          "닦고",
+          "잘 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_02_p4",
+        "sentence": "나는 무서워도 치과에 갈 거예요.",
+        "answer": [
+          "나는",
+          "무서워도",
+          "치과에",
+          "갈 거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_02_p5",
+        "sentence": "나는 놀고 싶어도 숙제를 할 거예요.",
+        "answer": [
+          "나는",
+          "놀고",
+          "싶어도",
+          "숙제를",
+          "할 거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_02_p6",
+        "sentence": "나는 화가 나도 나쁜 말을 하지 않을 거예요.",
+        "answer": [
+          "나는",
+          "화가",
+          "나도",
+          "나쁜 말을",
+          "하지",
+          "않을 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 4,
+    "unit_title": "숙제를 다 하고 놀자고 했어요"
+  },
+  {
+    "id": "unit4_03",
+    "title": "모둠 활동",
+    "icon": "🎨",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "abigail",
+        "name": "아비가일",
+        "avatar": "아"
+      },
+      {
+        "id": "riam",
+        "name": "리암",
+        "avatar": "리"
+      },
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      },
+      {
+        "id": "jiming",
+        "name": "저밍",
+        "avatar": "저"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "abigail",
+        "text": "너희가 팔, 다리를 그리는 동안 나는 머리를 그릴게."
+      },
+      {
+        "character": "riam",
+        "text": "난 팔과 손을 그릴게."
+      },
+      {
+        "character": "aida",
+        "text": "나는 다리를 색칠할게."
+      },
+      {
+        "character": "jiming",
+        "text": "나는 이렇게 누워 있으면 되지?"
+      },
+      {
+        "character": "abigail",
+        "text": "리암이 다리를 색칠하는 동안 아비가일은 팔을 색칠해요."
+      },
+      {
+        "character": "aida",
+        "text": "너희가 색칠하는 동안 나는 얼굴을 그릴게."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit4_03_p1",
+        "sentence": "리암이 다리를 색칠하는 동안 아비가일은 팔을 색칠해요.",
+        "answer": [
+          "리암이",
+          "다리를",
+          "색칠하는",
+          "동안",
+          "아비가일은",
+          "팔을",
+          "색칠해요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_03_p2",
+        "sentence": "너희가 색칠하는 동안 나는 얼굴을 그릴게.",
+        "answer": [
+          "너희가",
+          "색칠하는",
+          "동안",
+          "나는",
+          "얼굴을",
+          "그릴게."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_03_p3",
+        "sentence": "아비가일이 팔을 그리는 동안 나는 다리를 그릴게.",
+        "answer": [
+          "아비가일이",
+          "팔을",
+          "그리는",
+          "동안",
+          "나는",
+          "다리를",
+          "그릴게."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 4,
+    "unit_title": "숙제를 다 하고 놀자고 했어요"
+  },
+  {
+    "id": "unit4_04",
+    "title": "숙제 검사",
+    "icon": "✅",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "yuta",
+        "name": "요우타",
+        "avatar": "요"
+      },
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuta",
+        "text": "선생님께서 뭐라고 하셨어?"
+      },
+      {
+        "character": "aida",
+        "text": "선생님께서 오늘 숙제를 잘했냐고 하셨어."
+      },
+      {
+        "character": "aida",
+        "text": "그리고 선생님께서 오늘 수업 마치고 같이 이야기하자고 하셨어."
+      },
+      {
+        "character": "yuta",
+        "text": "아이다가 오늘 숙제를 같이 하자고 했어요."
+      },
+      {
+        "character": "aida",
+        "text": "선생님께서 수학 익힘책을 다 풀자고 하셨어요."
+      },
+      {
+        "character": "yuta",
+        "text": "아이다가 숙제를 다 하고 놀자고 했어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit4_04_p1",
+        "sentence": "선생님께서 오늘 숙제를 잘했냐고 하셨어.",
+        "answer": [
+          "선생님께서",
+          "오늘",
+          "숙제를",
+          "잘했냐고",
+          "하셨어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_04_p2",
+        "sentence": "아이다가 숙제를 다 하고 놀자고 했어요.",
+        "answer": [
+          "아이다가",
+          "숙제를",
+          "다 하고",
+          "놀자고",
+          "했어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_04_p3",
+        "sentence": "선생님께서 수학 익힘책을 다 풀자고 하셨어요.",
+        "answer": [
+          "선생님께서",
+          "수학",
+          "익힘책을",
+          "다 풀자고",
+          "하셨어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit4_04_p4",
+        "sentence": "아이다가 오늘 숙제를 같이 하자고 했어요.",
+        "answer": [
+          "아이다가",
+          "오늘",
+          "숙제를",
+          "같이",
+          "하자고",
+          "했어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 4,
+    "unit_title": "숙제를 다 하고 놀자고 했어요"
+  },
+  {
+    "id": "unit5_01",
+    "title": "공원에서 지켜야 할 규칙",
+    "icon": "🌳",
+    "location": "공원",
+    "level": 2,
+    "characters": [
+      {
+        "id": "announcer",
+        "name": "안내원",
+        "avatar": "안"
+      },
+      {
+        "id": "visitor",
+        "name": "방문객",
+        "avatar": "방"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "announcer",
+        "text": "우리 공원에서는 다음과 같은 행동을 하면 안 됩니다."
+      },
+      {
+        "character": "announcer",
+        "text": "첫째, 나무에 올라가면 안 돼요."
+      },
+      {
+        "character": "announcer",
+        "text": "둘째, 자전거를 타면 안 돼요."
+      },
+      {
+        "character": "announcer",
+        "text": "셋째, 쓰레기를 버리면 안 돼요."
+      },
+      {
+        "character": "announcer",
+        "text": "넷째, 꽃을 꺾으면 안 돼요."
+      },
+      {
+        "character": "announcer",
+        "text": "다섯째, 큰 소리로 노래를 부르면 안 돼요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit5_01_p1",
+        "sentence": "나무에 올라가면 안 돼요.",
+        "answer": [
+          "나무에",
+          "올라가면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_01_p2",
+        "sentence": "자전거를 타면 안 돼요.",
+        "answer": [
+          "자전거를",
+          "타면",
+          "안",
+          "돼요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_01_p3",
+        "sentence": "쓰레기를 버리면 안 돼요.",
+        "answer": [
+          "쓰레기를",
+          "버리면",
+          "안",
+          "돼요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_01_p4",
+        "sentence": "꽃을 꺾으면 안 돼요.",
+        "answer": [
+          "꽃을",
+          "꺾으면",
+          "안",
+          "돼요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_01_p5",
+        "sentence": "큰 소리로 노래를 부르면 안 돼요.",
+        "answer": [
+          "큰 소리로",
+          "노래를",
+          "부르면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 5,
+    "unit_title": "쓰레기를 버리면 안 돼요"
+  },
+  {
+    "id": "unit5_02",
+    "title": "학교에서 지켜야 할 규칙",
+    "icon": "🏫",
+    "location": "학교",
+    "level": 2,
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "student",
+        "text": "계단에서 뛰어다니면 안 돼요."
+      },
+      {
+        "character": "student",
+        "text": "복도에서 장난치면 안 돼요."
+      },
+      {
+        "character": "student",
+        "text": "교실에서 조용히 하세요."
+      },
+      {
+        "character": "student",
+        "text": "의자에 바르게 앉으세요."
+      },
+      {
+        "character": "teacher",
+        "text": "복도에서 장난을 치면 안 된다고 하셨어요."
+      },
+      {
+        "character": "teacher",
+        "text": "교실에서 의자에 바르게 앉으라고 하셨어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit5_02_p1",
+        "sentence": "계단에서 뛰어다니면 안 돼요.",
+        "answer": [
+          "계단에서",
+          "뛰어다니면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p2",
+        "sentence": "복도에서 장난치면 안 돼요.",
+        "answer": [
+          "복도에서",
+          "장난치면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p3",
+        "sentence": "교실에서 조용히 하세요.",
+        "answer": [
+          "교실에서",
+          "조용히",
+          "하세요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p4",
+        "sentence": "의자에 바르게 앉으세요.",
+        "answer": [
+          "의자에",
+          "바르게",
+          "앉으세요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p5",
+        "sentence": "복도에서 장난을 치면 안 된다고 하셨어요.",
+        "answer": [
+          "복도에서",
+          "장난을",
+          "치면",
+          "안 된다고",
+          "하셨어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p6",
+        "sentence": "교실에서 의자에 바르게 앉으라고 하셨어요.",
+        "answer": [
+          "교실에서",
+          "의자에",
+          "바르게",
+          "앉으라고",
+          "하셨어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p7",
+        "sentence": "복도에서 장난을 쳤어요.",
+        "answer": [
+          "복도에서",
+          "장난을",
+          "쳤어요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_02_p8",
+        "sentence": "의자에 바르게 앉지 않았어요.",
+        "answer": [
+          "의자에",
+          "바르게",
+          "앉지",
+          "않았어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 5,
+    "unit_title": "쓰레기를 버리면 안 돼요"
+  },
+  {
+    "id": "unit5_03",
+    "title": "급식실에서 지켜야 할 규칙",
+    "icon": "🍽️",
+    "location": "급식실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "student",
+        "text": "급식실에 가기 전에 손을 씻습니다."
+      },
+      {
+        "character": "student",
+        "text": "그리고 줄을 섭니다."
+      },
+      {
+        "character": "student",
+        "text": "차례대로 급식을 받고 나서 친구들과 맛있게 먹습니다."
+      },
+      {
+        "character": "student",
+        "text": "급식을 먹고 나서 수저와 식판을 정해진 곳에 놓습니다."
+      },
+      {
+        "character": "student",
+        "text": "그리고 양치질을 합니다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit5_03_p1",
+        "sentence": "손을 씻고 나서 줄을 섭니다.",
+        "answer": [
+          "손을",
+          "씻고 나서",
+          "줄을",
+          "섭니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_03_p2",
+        "sentence": "차례대로 급식을 받고 나서 친구들과 맛있게 먹습니다.",
+        "answer": [
+          "차례대로",
+          "급식을",
+          "받고 나서",
+          "친구들과",
+          "맛있게",
+          "먹습니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_03_p3",
+        "sentence": "급식을 먹고 나서 수저와 식판을 정해진 곳에 놓습니다.",
+        "answer": [
+          "급식을",
+          "먹고 나서",
+          "수저와",
+          "식판을",
+          "정해진 곳에",
+          "놓습니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_03_p4",
+        "sentence": "수저와 식판을 정해진 곳에 놓고 나서 양치질을 합니다.",
+        "answer": [
+          "수저와",
+          "식판을",
+          "정해진 곳에",
+          "놓고 나서",
+          "양치질을",
+          "합니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_03_p5",
+        "sentence": "급식실에 가기 전에 손을 씻습니다.",
+        "answer": [
+          "급식실에",
+          "가기 전에",
+          "손을",
+          "씻습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 5,
+    "unit_title": "쓰레기를 버리면 안 돼요"
+  },
+  {
+    "id": "unit5_04",
+    "title": "박물관에서 지켜야 할 규칙",
+    "icon": "🏛️",
+    "location": "박물관",
+    "level": 2,
+    "characters": [
+      {
+        "id": "yuta",
+        "name": "요우타",
+        "avatar": "요"
+      },
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuta",
+        "text": "아이다, 아직도 아파?"
+      },
+      {
+        "character": "aida",
+        "text": "이제 괜찮아. 많이 나았어."
+      },
+      {
+        "character": "yuta",
+        "text": "할 말이 있어서 전화했어."
+      },
+      {
+        "character": "aida",
+        "text": "뭔데?"
+      },
+      {
+        "character": "yuta",
+        "text": "선생님께서 내일 박물관에 견학을 갈 거라고 하셨어."
+      },
+      {
+        "character": "aida",
+        "text": "박물관에서는 뛰어다니거나 시끄럽게 떠들면 안 된다고 하셨어. 그리고 필기도구를 챙겨 오라고 하셨어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit5_04_p1",
+        "sentence": "선생님께서 내일 박물관에 견학을 갈 거라고 하셨어.",
+        "answer": [
+          "선생님께서",
+          "내일",
+          "박물관에",
+          "견학을",
+          "갈 거라고",
+          "하셨어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_04_p2",
+        "sentence": "박물관에서 뛰어다니면 안 돼요.",
+        "answer": [
+          "박물관에서",
+          "뛰어다니면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_04_p3",
+        "sentence": "박물관에서 시끄럽게 떠들면 안 돼요.",
+        "answer": [
+          "박물관에서",
+          "시끄럽게",
+          "떠들면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_04_p4",
+        "sentence": "견학 갔다 온 다음에 학교에서 급식을 먹는다고 하셨어.",
+        "answer": [
+          "견학",
+          "갔다 온",
+          "다음에",
+          "학교에서",
+          "급식을",
+          "먹는다고",
+          "하셨어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit5_04_p5",
+        "sentence": "필기도구를 챙겨 오라고 하셨어.",
+        "answer": [
+          "필기도구를",
+          "챙겨",
+          "오라고",
+          "하셨어."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 5,
+    "unit_title": "쓰레기를 버리면 안 돼요"
+  },
+  {
+    "id": "unit6_01",
+    "title": "전화",
+    "icon": "📞",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "jimin",
+        "name": "지민",
+        "avatar": "지"
+      },
+      {
+        "id": "grandma",
+        "name": "할머니",
+        "avatar": "할"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jimin",
+        "text": "할머니, 그동안 안녕하셨어요?"
+      },
+      {
+        "character": "grandma",
+        "text": "그래, 할머니는 잘 있지. 우리 지민이는 요즘 밥 잘 먹니?"
+      },
+      {
+        "character": "jimin",
+        "text": "네, 할머니. 지녀도 많이 먹었어요."
+      },
+      {
+        "character": "grandma",
+        "text": "이이고, 잘했네. 내일은 뭐 하니?"
+      },
+      {
+        "character": "jimin",
+        "text": "내일 엄마랑 박물관에 가요. 학교에 안 가는 날이거든요."
+      },
+      {
+        "character": "grandma",
+        "text": "그래, 재미있겠구나."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit6_01_p1",
+        "sentence": "내일 엄마랑 박물관에 가요.",
+        "answer": [
+          "내일",
+          "엄마랑",
+          "박물관에",
+          "가요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_01_p2",
+        "sentence": "학교에 안 가는 날이거든요.",
+        "answer": [
+          "학교에",
+          "안 가는",
+          "날이거든요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_01_p3",
+        "sentence": "생일 파티에 가요. 친구 생일이거든요.",
+        "answer": [
+          "생일 파티에",
+          "가요.",
+          "친구",
+          "생일이거든요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_01_p4",
+        "sentence": "도서관에 가요. 책을 빌려야 하거든요.",
+        "answer": [
+          "도서관에",
+          "가요.",
+          "책을",
+          "빌려야",
+          "하거든요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_01_p5",
+        "sentence": "친구 집에 가요. 숙제를 해야 하거든요.",
+        "answer": [
+          "친구 집에",
+          "가요.",
+          "숙제를",
+          "해야",
+          "하거든요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 6,
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+  },
+  {
+    "id": "unit6_02",
+    "title": "휴대 전화",
+    "icon": "📱",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "jiming",
+        "name": "저밍",
+        "avatar": "저"
+      },
+      {
+        "id": "hami",
+        "name": "하미",
+        "avatar": "하"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jiming",
+        "text": "하미, 너 휴대 전화 새로 샀어?"
+      },
+      {
+        "character": "hami",
+        "text": "응, 아빠한테 생일 선물로 사 달라고 했어."
+      },
+      {
+        "character": "jiming",
+        "text": "좋겠다. 인터넷도 할 수 있어?"
+      },
+      {
+        "character": "hami",
+        "text": "그럼, 이 버튼을 누르면 인터넷이 돼. 이건 문자 보내는 버튼이고, 이건 전화하는 버튼이야."
+      },
+      {
+        "character": "jiming",
+        "text": "이건 카메라 버튼이지?"
+      },
+      {
+        "character": "hami",
+        "text": "응, 사진 한 장 찍어 줄게?"
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit6_02_p1",
+        "sentence": "아빠한테 생일 선물로 사 달라고 했어.",
+        "answer": [
+          "아빠한테",
+          "생일 선물로",
+          "사",
+          "달라고",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_02_p2",
+        "sentence": "저밍이 숙제를 좀 도와달라고 했어요.",
+        "answer": [
+          "저밍이",
+          "숙제를",
+          "좀",
+          "도와달라고",
+          "했어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_02_p3",
+        "sentence": "사진을 좀 찍어 달라고 했어요.",
+        "answer": [
+          "사진을",
+          "좀",
+          "찍어",
+          "달라고",
+          "했어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_02_p4",
+        "sentence": "휴대 전화를 사 달라고 했어요.",
+        "answer": [
+          "휴대 전화를",
+          "사",
+          "달라고",
+          "했어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 6,
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+  },
+  {
+    "id": "unit6_03",
+    "title": "인터넷 대화 예절",
+    "icon": "💬",
+    "location": "집",
+    "level": 3,
+    "characters": [
+      {
+        "id": "friend1",
+        "name": "친구1",
+        "avatar": "친"
+      },
+      {
+        "id": "friend2",
+        "name": "친구2",
+        "avatar": "구"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend1",
+        "text": "인터넷 대화에서 한 사람을 따돌리면 어떡해. 사이좋게 지내야지."
+      },
+      {
+        "character": "friend2",
+        "text": "계속 ㅋㅋㅋㅋ만 하면 어떡해. 질문에 대답을 해야지."
+      },
+      {
+        "character": "friend1",
+        "text": "나쁜 말을 하거나 욕을 하면 어떡해. 예쁜 말을 해야지."
+      },
+      {
+        "character": "friend2",
+        "text": "맞춤법을 틀리게 쓰면 어떡해. 정확하게 써야지."
+      },
+      {
+        "character": "friend1",
+        "text": "누가 쓰는지 모르는데 내 맘대로 쓰면 안 돼."
+      },
+      {
+        "character": "friend2",
+        "text": "마음대로 쓰면 어떡해."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit6_03_p1",
+        "sentence": "한 사람을 따돌리면 어떡해. 사이좋게 지내야지.",
+        "answer": [
+          "한 사람을",
+          "따돌리면",
+          "어떡해.",
+          "사이좋게",
+          "지내야지."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_03_p2",
+        "sentence": "나쁜 말을 하거나 욕을 하면 어떡해.",
+        "answer": [
+          "나쁜 말을",
+          "하거나",
+          "욕을",
+          "하면",
+          "어떡해."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_03_p3",
+        "sentence": "맞춤법을 틀리게 쓰면 어떡해. 정확하게 써야지.",
+        "answer": [
+          "맞춤법을",
+          "틀리게",
+          "쓰면",
+          "어떡해.",
+          "정확하게",
+          "써야지."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_03_p4",
+        "sentence": "댓글을 잘 생각해서 달아야겠다.",
+        "answer": [
+          "댓글을",
+          "잘",
+          "생각해서",
+          "달아야겠다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 6,
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+  },
+  {
+    "id": "unit6_04",
+    "title": "휴대 전화 사용 예절",
+    "icon": "🔕",
+    "location": "공공장소",
+    "level": 2,
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "영화관에서는 휴대 전화를 꺼 주세요."
+      },
+      {
+        "character": "teacher",
+        "text": "버스에서는 작은 소리로 통화해 주세요."
+      },
+      {
+        "character": "teacher",
+        "text": "수업 시간에는 휴대 전화를 꺼내지 마세요."
+      },
+      {
+        "character": "teacher",
+        "text": "길을 걸을 때는 휴대 전화를 보지 마세요."
+      },
+      {
+        "character": "student",
+        "text": "미술관에서는 사진을 찍지 마세요."
+      },
+      {
+        "character": "student",
+        "text": "화장실에서는 시끄럽게 통화하지 마세요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit6_04_p1",
+        "sentence": "영화관에서는 휴대 전화를 꺼 주세요.",
+        "answer": [
+          "영화관에서는",
+          "휴대 전화를",
+          "꺼",
+          "주세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_04_p2",
+        "sentence": "수업 시간에는 휴대 전화를 꺼내지 마세요.",
+        "answer": [
+          "수업 시간에는",
+          "휴대 전화를",
+          "꺼내지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_04_p3",
+        "sentence": "길을 걸을 때는 휴대 전화를 보지 마세요.",
+        "answer": [
+          "길을",
+          "걸을 때는",
+          "휴대 전화를",
+          "보지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_04_p4",
+        "sentence": "미술관에서는 사진을 찍지 마세요.",
+        "answer": [
+          "미술관에서는",
+          "사진을",
+          "찍지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_04_p5",
+        "sentence": "화장실에서는 시끄럽게 통화하지 마세요.",
+        "answer": [
+          "화장실에서는",
+          "시끄럽게",
+          "통화하지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit6_04_p6",
+        "sentence": "버스에서는 작은 소리로 통화해 주세요.",
+        "answer": [
+          "버스에서는",
+          "작은 소리로",
+          "통화해",
+          "주세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 6,
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+  },
+  {
+    "id": "unit7_01",
+    "title": "우리 이웃의 직업",
+    "icon": "👮",
+    "location": "동네",
+    "level": 1,
+    "characters": [
+      {
+        "id": "friend1",
+        "name": "친구1",
+        "avatar": "친"
+      },
+      {
+        "id": "friend2",
+        "name": "친구2",
+        "avatar": "구"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend1",
+        "text": "경찰관은 어떤 일을 해?"
+      },
+      {
+        "character": "friend2",
+        "text": "나쁜 사람들을 잡아."
+      },
+      {
+        "character": "friend1",
+        "text": "소방관은 어떤 일을 해?"
+      },
+      {
+        "character": "friend2",
+        "text": "불을 꺼요."
+      },
+      {
+        "character": "friend1",
+        "text": "의사는 어떤 일을 해?"
+      },
+      {
+        "character": "friend2",
+        "text": "아픈 사람의 병을 치료해요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit7_01_p1",
+        "sentence": "학교에서 학생들을 가르쳐요.",
+        "answer": [
+          "학교에서",
+          "학생들을",
+          "가르쳐요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_01_p2",
+        "sentence": "아픈 사람의 병을 치료해요.",
+        "answer": [
+          "아픈",
+          "사람의",
+          "병을",
+          "치료해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_01_p3",
+        "sentence": "의사하고 같이 아픈 사람들을 도와줘요.",
+        "answer": [
+          "의사하고",
+          "같이",
+          "아픈",
+          "사람들을",
+          "도와줘요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_01_p4",
+        "sentence": "맛있는 음식을 만들어요.",
+        "answer": [
+          "맛있는",
+          "음식을",
+          "만들어요."
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ],
+    "unit": 7,
+    "unit_title": "경찰이 되었으면 좋겠어요"
+  },
+  {
+    "id": "unit7_02",
+    "title": "나의 꿈",
+    "icon": "🌟",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "abigail",
+        "name": "아비가일",
+        "avatar": "아"
+      },
+      {
+        "id": "dad",
+        "name": "아빠",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "abigail",
+        "text": "아빠, 저는 아빠처럼 경찰관이 되었으면 좋겠어요."
+      },
+      {
+        "character": "dad",
+        "text": "너는 왜 경찰관이 되고 싶은데?"
+      },
+      {
+        "character": "abigail",
+        "text": "도둑을 잡고 착한 사람들을 보호하고 싶어서요."
+      },
+      {
+        "character": "dad",
+        "text": "그래? 좋은 생각이야. 나도 네가 꼭 좋은 경찰관이 됐으면 좋겠다."
+      },
+      {
+        "character": "abigail",
+        "text": "저는 나중에 커서 택배 기사가 됐으면 좋겠어요."
+      },
+      {
+        "character": "abigail",
+        "text": "저는 나중에 커서 키가 큰 아빠가 됐으면 좋겠어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit7_02_p1",
+        "sentence": "저는 아빠처럼 경찰관이 되었으면 좋겠어요.",
+        "answer": [
+          "저는",
+          "아빠처럼",
+          "경찰관이",
+          "되었으면",
+          "좋겠어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_02_p2",
+        "sentence": "도둑을 잡고 착한 사람들을 보호하고 싶어서요.",
+        "answer": [
+          "도둑을",
+          "잡고",
+          "착한",
+          "사람들을",
+          "보호하고",
+          "싶어서요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_02_p3",
+        "sentence": "나도 네가 꼭 좋은 경찰관이 됐으면 좋겠다.",
+        "answer": [
+          "나도",
+          "네가",
+          "꼭",
+          "좋은",
+          "경찰관이",
+          "됐으면",
+          "좋겠다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_02_p4",
+        "sentence": "저는 나중에 커서 택배 기사가 됐으면 좋겠어요.",
+        "answer": [
+          "저는",
+          "나중에",
+          "커서",
+          "택배 기사가",
+          "됐으면",
+          "좋겠어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_02_p5",
+        "sentence": "저는 나중에 커서 키가 큰 아빠가 됐으면 좋겠어요.",
+        "answer": [
+          "저는",
+          "나중에",
+          "커서",
+          "키가 큰",
+          "아빠가",
+          "됐으면",
+          "좋겠어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 7,
+    "unit_title": "경찰이 되었으면 좋겠어요"
+  },
+  {
+    "id": "unit7_03",
+    "title": "어린이 직업 체험",
+    "icon": "🎬",
+    "location": "직업 체험관",
+    "level": 2,
+    "characters": [
+      {
+        "id": "jimin",
+        "name": "지민",
+        "avatar": "지"
+      },
+      {
+        "id": "riam",
+        "name": "리암",
+        "avatar": "리"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jimin",
+        "text": "우리 수의사 체험 해 볼까?"
+      },
+      {
+        "character": "riam",
+        "text": "그래! 좋아."
+      },
+      {
+        "character": "jimin",
+        "text": "방송국 체험을 하려면 어떻게 해야 돼?"
+      },
+      {
+        "character": "riam",
+        "text": "여기에서 줄을 서서 기다리면 돼."
+      },
+      {
+        "character": "jimin",
+        "text": "운동선수 체험을 하려면 어떻게 해야 돼?"
+      },
+      {
+        "character": "riam",
+        "text": "그 앞에서 앉아서 기다리면 돼."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit7_03_p1",
+        "sentence": "방송국 체험을 하려면 줄을 서서 기다리면 돼.",
+        "answer": [
+          "방송국 체험을",
+          "하려면",
+          "줄을",
+          "서서",
+          "기다리면",
+          "돼."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_03_p2",
+        "sentence": "수의사 체험을 하려면 번호표를 받고 기다리면 돼.",
+        "answer": [
+          "수의사 체험을",
+          "하려면",
+          "번호표를",
+          "받고",
+          "기다리면",
+          "돼."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_03_p3",
+        "sentence": "비행기 조종사 체험을 하려면 2층으로 올라가면 돼.",
+        "answer": [
+          "비행기 조종사",
+          "체험을",
+          "하려면",
+          "2층으로",
+          "올라가면",
+          "돼."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 7,
+    "unit_title": "경찰이 되었으면 좋겠어요"
+  },
+  {
+    "id": "unit7_04",
+    "title": "장래 희망 발표",
+    "icon": "🎤",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "hami",
+        "name": "하미",
+        "avatar": "하"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "hami",
+        "text": "안녕하세요. 저는 1학년 1반 하미입니다."
+      },
+      {
+        "character": "hami",
+        "text": "제 꿈은 요리사입니다. 저는 맛있는 음식을 먹을 때 행복합니다."
+      },
+      {
+        "character": "hami",
+        "text": "저는 아빠처럼 훌륭한 요리사가 됐으면 좋겠습니다."
+      },
+      {
+        "character": "hami",
+        "text": "훌륭한 요리사가 되려면 부지런해야 합니다."
+      },
+      {
+        "character": "hami",
+        "text": "저는 열심히 노력해서 꼭 훌륭한 요리사가 되겠습니다."
+      },
+      {
+        "character": "friend",
+        "text": "난 아빠처럼 훌륭한 경찰관이 됐으면 좋겠어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit7_04_p1",
+        "sentence": "저는 아빠처럼 훌륭한 요리사가 됐으면 좋겠습니다.",
+        "answer": [
+          "저는",
+          "아빠처럼",
+          "훌륭한",
+          "요리사가",
+          "됐으면",
+          "좋겠습니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_04_p2",
+        "sentence": "훌륭한 요리사가 되려면 부지런해야 합니다.",
+        "answer": [
+          "훌륭한",
+          "요리사가",
+          "되려면",
+          "부지런해야",
+          "합니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_04_p3",
+        "sentence": "저는 열심히 노력해서 꼭 훌륭한 요리사가 되겠습니다.",
+        "answer": [
+          "저는",
+          "열심히",
+          "노력해서",
+          "꼭",
+          "훌륭한",
+          "요리사가",
+          "되겠습니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_04_p4",
+        "sentence": "난 아빠처럼 훌륭한 경찰관이 됐으면 좋겠어.",
+        "answer": [
+          "난",
+          "아빠처럼",
+          "훌륭한",
+          "경찰관이",
+          "됐으면",
+          "좋겠어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit7_04_p5",
+        "sentence": "저는 맛있는 음식을 먹을 때 행복합니다.",
+        "answer": [
+          "저는",
+          "맛있는",
+          "음식을",
+          "먹을 때",
+          "행복합니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 7,
+    "unit_title": "경찰이 되었으면 좋겠어요"
+  },
+  {
+    "id": "unit8_01",
+    "title": "여행 계획",
+    "icon": "✈️",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "yuta",
+        "name": "요우타",
+        "avatar": "요"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuta",
+        "text": "엄마, 방학 때 특별한 계획이 있어요?"
+      },
+      {
+        "character": "mom",
+        "text": "할머니를 뵈러 일본에 갈 거야. 그리고 할 계획이야."
+      },
+      {
+        "character": "yuta",
+        "text": "와, 신난다!"
+      },
+      {
+        "character": "mom",
+        "text": "할머니를 뵈러 가는 김에 일본 여행도 할 계획이야."
+      },
+      {
+        "character": "mom",
+        "text": "할머니를 뵈러 가는 김에 친구를 만날 계획이야."
+      },
+      {
+        "character": "mom",
+        "text": "할머니를 뵈러 가는 김에 다른 친척을 만날 계획이야."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit8_01_p1",
+        "sentence": "할머니를 뵈러 가는 김에 일본 여행도 할 계획이야.",
+        "answer": [
+          "할머니를",
+          "뵈러",
+          "가는 김에",
+          "일본 여행도",
+          "할",
+          "계획이야."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_01_p2",
+        "sentence": "할머니를 뵈러 가는 김에 친구를 만날 계획이야.",
+        "answer": [
+          "할머니를",
+          "뵈러",
+          "가는 김에",
+          "친구를",
+          "만날",
+          "계획이야."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_01_p3",
+        "sentence": "할머니를 뵈러 가는 김에 다른 친척을 만날 계획이야.",
+        "answer": [
+          "할머니를",
+          "뵈러",
+          "가는 김에",
+          "다른",
+          "친척을",
+          "만날",
+          "계획이야."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 8,
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+  },
+  {
+    "id": "unit8_02",
+    "title": "방학 계획",
+    "icon": "🏖️",
+    "location": "교실",
+    "level": 2,
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student1",
+        "name": "학생1",
+        "avatar": "학"
+      },
+      {
+        "id": "student2",
+        "name": "학생2",
+        "avatar": "생"
+      },
+      {
+        "id": "student3",
+        "name": "학생3",
+        "avatar": "도"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "여러분, 방학 때 무엇을 할 거예요?"
+      },
+      {
+        "character": "student1",
+        "text": "저는 스프로젝거인 놀이공원에 갈 것 같아요."
+      },
+      {
+        "character": "student2",
+        "text": "저도 잘 모르겠어요. 그런데 가족 여행을 갈 것 같아요."
+      },
+      {
+        "character": "student3",
+        "text": "저는 박물관에 가고 싶어요."
+      },
+      {
+        "character": "student1",
+        "text": "나는 방학 때 가족 여행을 갈 것 같아."
+      },
+      {
+        "character": "student2",
+        "text": "나는 방학 때 박물관에 갈 것 같아."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit8_02_p1",
+        "sentence": "나는 할머니 댁에 갈 것 같아.",
+        "answer": [
+          "나는",
+          "할머니 댁에",
+          "갈 것",
+          "같아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_02_p2",
+        "sentence": "나는 방학 때 가족 여행을 갈 것 같아.",
+        "answer": [
+          "나는",
+          "방학 때",
+          "가족 여행을",
+          "갈 것",
+          "같아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_02_p3",
+        "sentence": "나는 방학 때 박물관에 갈 것 같아.",
+        "answer": [
+          "나는",
+          "방학 때",
+          "박물관에",
+          "갈 것",
+          "같아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_02_p4",
+        "sentence": "나는 방학 때 놀이공원에 갈 것 같아.",
+        "answer": [
+          "나는",
+          "방학 때",
+          "놀이공원에",
+          "갈 것",
+          "같아."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ],
+    "unit": 8,
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+  },
+  {
+    "id": "unit8_03",
+    "title": "생활 계획표",
+    "icon": "📅",
+    "location": "집",
+    "level": 2,
+    "characters": [
+      {
+        "id": "sungwoo",
+        "name": "성우",
+        "avatar": "성"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend",
+        "text": "아침 먹고 나서 무엇을 하기로 했어?"
+      },
+      {
+        "character": "sungwoo",
+        "text": "운동을 하기로 했어."
+      },
+      {
+        "character": "friend",
+        "text": "방학 숙제를 하고 나서 무엇을 하기로 했어?"
+      },
+      {
+        "character": "sungwoo",
+        "text": "책을 읽기로 했어."
+      },
+      {
+        "character": "friend",
+        "text": "저녁을 먹고 나서 무엇을 해?"
+      },
+      {
+        "character": "sungwoo",
+        "text": "태권도를 배우기로 했어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit8_03_p1",
+        "sentence": "아침을 먹고 나서 운동을 하기로 했어.",
+        "answer": [
+          "아침을",
+          "먹고 나서",
+          "운동을",
+          "하기로",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_03_p2",
+        "sentence": "방학 숙제를 하고 나서 책을 읽기로 했어.",
+        "answer": [
+          "방학 숙제를",
+          "하고 나서",
+          "책을",
+          "읽기로",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_03_p3",
+        "sentence": "텔레비전을 보고 나서 일기를 쓰기로 했어.",
+        "answer": [
+          "텔레비전을",
+          "보고 나서",
+          "일기를",
+          "쓰기로",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_03_p4",
+        "sentence": "학원을 갔다 와서 태권도를 배우기로 했어.",
+        "answer": [
+          "학원을",
+          "갔다 와서",
+          "태권도를",
+          "배우기로",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_03_p5",
+        "sentence": "점심을 먹고 나서 자유 시간을 보내기로 했어.",
+        "answer": [
+          "점심을",
+          "먹고 나서",
+          "자유 시간을",
+          "보내기로",
+          "했어."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 8,
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+  },
+  {
+    "id": "unit8_04",
+    "title": "새해 다짐 일기",
+    "icon": "📔",
+    "location": "집",
+    "level": 3,
+    "characters": [
+      {
+        "id": "aida",
+        "name": "아이다",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "aida",
+        "text": "오늘은 새해의 첫날이다. 나는 새해를 맞이하여 새로운 계획을 세우고 싶다."
+      },
+      {
+        "character": "aida",
+        "text": "나는 새해에 더욱 건강해지고 싶기 때문에 줄넘기를 열심히 할 것이다."
+      },
+      {
+        "character": "aida",
+        "text": "그리고 한국어 실력이 부족하기 때문에 하루에 한 시간씩 한국어 공부를 할 계획이다."
+      },
+      {
+        "character": "aida",
+        "text": "더욱 건강해지고 싶다. 줄넘기를 열심히 할 것이다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "unit8_04_p1",
+        "sentence": "나는 새해를 맞이하여 새로운 계획을 세우고 싶다.",
+        "answer": [
+          "나는",
+          "새해를",
+          "맞이하여",
+          "새로운",
+          "계획을",
+          "세우고",
+          "싶다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_04_p2",
+        "sentence": "건강해지고 싶기 때문에 줄넘기를 열심히 할 것이다.",
+        "answer": [
+          "건강해지고",
+          "싶기 때문에",
+          "줄넘기를",
+          "열심히",
+          "할 것이다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_04_p3",
+        "sentence": "한국어 실력이 부족하기 때문에 하루에 한 시간씩 한국어 공부를 할 계획이다.",
+        "answer": [
+          "한국어 실력이",
+          "부족하기 때문에",
+          "하루에",
+          "한 시간씩",
+          "한국어 공부를",
+          "할 계획이다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "unit8_04_p4",
+        "sentence": "더욱 건강해지고 싶다. 줄넘기를 열심히 할 것이다.",
+        "answer": [
+          "더욱",
+          "건강해지고",
+          "싶다.",
+          "줄넘기를",
+          "열심히",
+          "할 것이다."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ],
+    "unit": 8,
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+  }
+]
