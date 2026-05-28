@@ -7,7 +7,7 @@ This module has no Streamlit dependency. Backend/API code can call
 handoff payloads needed by the feedback LLM and prosody analyzer.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import lru_cache
 import json
 from pathlib import Path
@@ -32,6 +32,7 @@ from src.types import (
     EvaluationResult,
     FeedbackReport,
     ForcedAlignmentResult,
+    IPASequence,
     PronunciationCandidate,
     PronunciationReference,
     ScoreBreakdown,
@@ -58,6 +59,7 @@ class PipelineContext:
     alignment_confidence: AlignmentConfidenceReport | None = None
     score_breakdown: ScoreBreakdown | None = None
     feedback_report: FeedbackReport | None = None
+    alignment_notes: list[str] = field(default_factory=list)
 
 
 @lru_cache(maxsize=1)
@@ -154,6 +156,53 @@ def coarse_token_alignment_gate(ctx: PipelineContext) -> EvaluationResult | None
     )
 
 
+def _unstable_tail_trim_count(result: ForcedAlignmentResult) -> int:
+    segments = result.segments
+    if len(segments) < 3:
+        return 0
+
+    gaps = [
+        max(0.0, segments[index].start_time - segments[index - 1].end_time)
+        for index in range(1, len(segments))
+    ]
+    final_confidences = [segment.confidence for segment in segments[-2:]]
+
+    if len(final_confidences) == 2 and all(confidence < 0.05 for confidence in final_confidences):
+        return 2
+
+    if gaps and gaps[-1] > 0.30:
+        return 1
+
+    if len(gaps) >= 2 and gaps[-2] > 0.30:
+        return 2
+
+    if segments[-1].confidence < 0.005:
+        return 1
+
+    return 0
+
+
+def _trim_candidate_tail(candidate: PronunciationCandidate, trim_count: int) -> PronunciationCandidate:
+    kept_tokens = candidate.ipa.tokens[:-trim_count]
+    trimmed_tokens = candidate.ipa.tokens[-trim_count:]
+    kept_text = " ".join(token.symbol for token in kept_tokens)
+    trimmed_text = " ".join(token.symbol for token in trimmed_tokens)
+    notes = [
+        *candidate.notes,
+        f"forced_alignment_tail_retry_excluded={trimmed_text}",
+    ]
+    return PronunciationCandidate(
+        pronunciation=candidate.pronunciation,
+        ipa=IPASequence(
+            raw_text=kept_text,
+            normalized_text=kept_text,
+            tokens=kept_tokens,
+        ),
+        notes=notes,
+        is_primary=candidate.is_primary,
+    )
+
+
 def forced_alignment_stage(ctx: PipelineContext) -> EvaluationResult | None:
     """Align the selected reference IPA to frame-level CTC logits."""
 
@@ -170,6 +219,28 @@ def forced_alignment_stage(ctx: PipelineContext) -> EvaluationResult | None:
             tokenizer.get_vocab(),
             tokenizer.pad_token_id,
         )
+        initial_confidence = assess_alignment_confidence(ctx.forced_alignment)
+        trim_count = _unstable_tail_trim_count(ctx.forced_alignment)
+        if not initial_confidence.passed and trim_count:
+            retry_candidate = _trim_candidate_tail(
+                ctx.coarse_alignment.selected_reference_candidate,
+                trim_count,
+            )
+            retry_alignment = force_align_candidate(
+                retry_candidate,
+                ctx.recognition.logits or [],
+                ctx.recognition.frame_timestamps or [],
+                tokenizer.get_vocab(),
+                tokenizer.pad_token_id,
+            )
+            retry_confidence = assess_alignment_confidence(retry_alignment)
+            if retry_confidence.passed:
+                excluded = ctx.coarse_alignment.selected_reference_candidate.ipa.tokens[-trim_count:]
+                excluded_text = " ".join(token.symbol for token in excluded)
+                ctx.forced_alignment = retry_alignment
+                ctx.alignment_notes.append(
+                    f"Retried forced alignment after excluding unstable final phone(s): {excluded_text}"
+                )
     except ValueError as exc:
         return make_evaluation_result(
             ctx,
@@ -293,6 +364,8 @@ def make_evaluation_result(
     }
     if debug:
         debug_payload.update(debug)
+    if ctx.alignment_notes:
+        debug_payload["alignment_notes"] = ctx.alignment_notes
 
     return EvaluationResult(
         evaluation_status=status,
@@ -391,6 +464,24 @@ def build_backend_payload(
         }
         for index, token in enumerate(result.selected_reference_candidate.ipa.tokens)
     ]
+    if result.forced_alignment_result is not None:
+        aligned_count = len(result.forced_alignment_result.token_symbols)
+        reference_tokens = result.selected_reference_candidate.ipa.tokens
+        if aligned_count < len(reference_tokens):
+            payload["prosody_input"]["excluded_reference_tail"] = [
+                {
+                    "index": index,
+                    "token": token.symbol,
+                    "category": token.category,
+                    "syllable_position": token.syllable_position,
+                    "reason": "unstable_forced_alignment_tail",
+                }
+                for index, token in enumerate(reference_tokens[aligned_count:], start=aligned_count)
+            ]
+            payload["prosody_input"]["alignment_is_partial"] = True
+        else:
+            payload["prosody_input"]["excluded_reference_tail"] = []
+            payload["prosody_input"]["alignment_is_partial"] = False
 
     return {
         "status": payload["status"],
