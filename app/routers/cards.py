@@ -7,10 +7,11 @@ router = APIRouter()
 def list_cards(
     type: str | None = Query(default=None),
     unit: int | None = Query(default=None),
+    grade: str | None = Query(default=None),
     limit: int = Query(default=20, ge=1, le=200),
     offset: int = Query(default=0, ge=0)
 ):
-    return get_cards(type=type, unit=unit, limit=limit, offset=offset)
+    return get_cards(type=type, unit=unit, grade=grade, limit=limit, offset=offset)
 
 @router.get("/{card_id}")
 def detail_card(card_id: str):

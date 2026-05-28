@@ -83,7 +83,8 @@
       }
     ],
     "unit": 1,
-    "unit_title": "뛰다가 넘어졌어요"
+    "unit_title": "뛰다가 넘어졌어요",
+    "grade": "lower"
   },
   {
     "id": "unit1_02",
@@ -215,7 +216,8 @@
       }
     ],
     "unit": 1,
-    "unit_title": "뛰다가 넘어졌어요"
+    "unit_title": "뛰다가 넘어졌어요",
+    "grade": "lower"
   },
   {
     "id": "unit1_03",
@@ -352,7 +354,8 @@
       }
     ],
     "unit": 1,
-    "unit_title": "뛰다가 넘어졌어요"
+    "unit_title": "뛰다가 넘어졌어요",
+    "grade": "lower"
   },
   {
     "id": "unit1_04",
@@ -505,7 +508,8 @@
       }
     ],
     "unit": 1,
-    "unit_title": "뛰다가 넘어졌어요"
+    "unit_title": "뛰다가 넘어졌어요",
+    "grade": "lower"
   },
   {
     "id": "unit2_01",
@@ -613,7 +617,8 @@
       }
     ],
     "unit": 2,
-    "unit_title": "수영을 할 줄 알아요"
+    "unit_title": "수영을 할 줄 알아요",
+    "grade": "lower"
   },
   {
     "id": "unit2_02",
@@ -737,7 +742,8 @@
       }
     ],
     "unit": 2,
-    "unit_title": "수영을 할 줄 알아요"
+    "unit_title": "수영을 할 줄 알아요",
+    "grade": "lower"
   },
   {
     "id": "unit2_03",
@@ -846,7 +852,8 @@
       }
     ],
     "unit": 2,
-    "unit_title": "수영을 할 줄 알아요"
+    "unit_title": "수영을 할 줄 알아요",
+    "grade": "lower"
   },
   {
     "id": "unit2_04",
@@ -961,7 +968,8 @@
       }
     ],
     "unit": 2,
-    "unit_title": "수영을 할 줄 알아요"
+    "unit_title": "수영을 할 줄 알아요",
+    "grade": "lower"
   },
   {
     "id": "unit3_01",
@@ -1072,7 +1080,8 @@
       }
     ],
     "unit": 3,
-    "unit_title": "친구하고 같이 체험 학습을 가요"
+    "unit_title": "친구하고 같이 체험 학습을 가요",
+    "grade": "lower"
   },
   {
     "id": "unit3_02",
@@ -1177,7 +1186,8 @@
       }
     ],
     "unit": 3,
-    "unit_title": "친구하고 같이 체험 학습을 가요"
+    "unit_title": "친구하고 같이 체험 학습을 가요",
+    "grade": "lower"
   },
   {
     "id": "unit3_03",
@@ -1314,7 +1324,8 @@
       }
     ],
     "unit": 3,
-    "unit_title": "친구하고 같이 체험 학습을 가요"
+    "unit_title": "친구하고 같이 체험 학습을 가요",
+    "grade": "lower"
   },
   {
     "id": "unit3_04",
@@ -1425,7 +1436,8 @@
       }
     ],
     "unit": 3,
-    "unit_title": "친구하고 같이 체험 학습을 가요"
+    "unit_title": "친구하고 같이 체험 학습을 가요",
+    "grade": "lower"
   },
   {
     "id": "unit4_01",
@@ -1524,7 +1536,8 @@
       }
     ],
     "unit": 4,
-    "unit_title": "숙제를 다 하고 놀자고 했어요"
+    "unit_title": "숙제를 다 하고 놀자고 했어요",
+    "grade": "lower"
   },
   {
     "id": "unit4_02",
@@ -1653,7 +1666,8 @@
       }
     ],
     "unit": 4,
-    "unit_title": "숙제를 다 하고 놀자고 했어요"
+    "unit_title": "숙제를 다 하고 놀자고 했어요",
+    "grade": "lower"
   },
   {
     "id": "unit4_03",
@@ -1756,7 +1770,8 @@
       }
     ],
     "unit": 4,
-    "unit_title": "숙제를 다 하고 놀자고 했어요"
+    "unit_title": "숙제를 다 하고 놀자고 했어요",
+    "grade": "lower"
   },
   {
     "id": "unit4_04",
@@ -1858,7 +1873,8 @@
       }
     ],
     "unit": 4,
-    "unit_title": "숙제를 다 하고 놀자고 했어요"
+    "unit_title": "숙제를 다 하고 놀자고 했어요",
+    "grade": "lower"
   },
   {
     "id": "unit5_01",
@@ -1968,7 +1984,8 @@
       }
     ],
     "unit": 5,
-    "unit_title": "쓰레기를 버리면 안 돼요"
+    "unit_title": "쓰레기를 버리면 안 돼요",
+    "grade": "lower"
   },
   {
     "id": "unit5_02",
@@ -2112,7 +2129,8 @@
       }
     ],
     "unit": 5,
-    "unit_title": "쓰레기를 버리면 안 돼요"
+    "unit_title": "쓰레기를 버리면 안 돼요",
+    "grade": "lower"
   },
   {
     "id": "unit5_03",
@@ -2218,7 +2236,8 @@
       }
     ],
     "unit": 5,
-    "unit_title": "쓰레기를 버리면 안 돼요"
+    "unit_title": "쓰레기를 버리면 안 돼요",
+    "grade": "lower"
   },
   {
     "id": "unit5_04",
@@ -2333,7 +2352,8 @@
       }
     ],
     "unit": 5,
-    "unit_title": "쓰레기를 버리면 안 돼요"
+    "unit_title": "쓰레기를 버리면 안 돼요",
+    "grade": "lower"
   },
   {
     "id": "unit6_01",
@@ -2443,7 +2463,8 @@
       }
     ],
     "unit": 6,
-    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요",
+    "grade": "lower"
   },
   {
     "id": "unit6_02",
@@ -2543,7 +2564,8 @@
       }
     ],
     "unit": 6,
-    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요",
+    "grade": "lower"
   },
   {
     "id": "unit6_03",
@@ -2644,7 +2666,8 @@
       }
     ],
     "unit": 6,
-    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요",
+    "grade": "lower"
   },
   {
     "id": "unit6_04",
@@ -2766,7 +2789,8 @@
       }
     ],
     "unit": 6,
-    "unit_title": "교실에서 휴대 전화를 꺼 주세요"
+    "unit_title": "교실에서 휴대 전화를 꺼 주세요",
+    "grade": "lower"
   },
   {
     "id": "unit7_01",
@@ -2862,7 +2886,8 @@
       }
     ],
     "unit": 7,
-    "unit_title": "경찰이 되었으면 좋겠어요"
+    "unit_title": "경찰이 되었으면 좋겠어요",
+    "grade": "lower"
   },
   {
     "id": "unit7_02",
@@ -2982,7 +3007,8 @@
       }
     ],
     "unit": 7,
-    "unit_title": "경찰이 되었으면 좋겠어요"
+    "unit_title": "경찰이 되었으면 좋겠어요",
+    "grade": "lower"
   },
   {
     "id": "unit7_03",
@@ -3073,7 +3099,8 @@
       }
     ],
     "unit": 7,
-    "unit_title": "경찰이 되었으면 좋겠어요"
+    "unit_title": "경찰이 되었으면 좋겠어요",
+    "grade": "lower"
   },
   {
     "id": "unit7_04",
@@ -3191,7 +3218,8 @@
       }
     ],
     "unit": 7,
-    "unit_title": "경찰이 되었으면 좋겠어요"
+    "unit_title": "경찰이 되었으면 좋겠어요",
+    "grade": "lower"
   },
   {
     "id": "unit8_01",
@@ -3283,7 +3311,8 @@
       }
     ],
     "unit": 8,
-    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요",
+    "grade": "lower"
   },
   {
     "id": "unit8_02",
@@ -3393,7 +3422,8 @@
       }
     ],
     "unit": 8,
-    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요",
+    "grade": "lower"
   },
   {
     "id": "unit8_03",
@@ -3507,7 +3537,8 @@
       }
     ],
     "unit": 8,
-    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요",
+    "grade": "lower"
   },
   {
     "id": "unit8_04",
@@ -3599,6 +3630,7 @@
       }
     ],
     "unit": 8,
-    "unit_title": "방학에 할머니 댁에 갈 것 같아요"
+    "unit_title": "방학에 할머니 댁에 갈 것 같아요",
+    "grade": "lower"
   }
 ]
