@@ -3632,5 +3632,2414 @@
     "unit": 8,
     "unit_title": "방학에 할머니 댁에 갈 것 같아요",
     "grade": "lower"
+  },
+  {
+    "id": "upper1_01",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "친구와 인사하기",
+    "icon": "👋",
+    "location": "학교",
+    "level": 1,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "vincent",
+        "name": "빈센트",
+        "avatar": "빈"
+      },
+      {
+        "id": "junseo",
+        "name": "준서",
+        "avatar": "준"
+      },
+      {
+        "id": "seoyeong",
+        "name": "서영",
+        "avatar": "서"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "나는 장위야. 만나서 반가워."
+      },
+      {
+        "character": "vincent",
+        "text": "나는 빈센트야. 만나서 반가워."
+      },
+      {
+        "character": "junseo",
+        "text": "내가 도와줄 수 있어."
+      },
+      {
+        "character": "seoyeong",
+        "text": "괜찮아?"
+      },
+      {
+        "character": "jangwi",
+        "text": "축하해."
+      },
+      {
+        "character": "vincent",
+        "text": "고마워."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_01_p1",
+        "sentence": "나는 장위야. 만나서 반가워.",
+        "answer": [
+          "나는",
+          "장위야.",
+          "만나서",
+          "반가워."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_01_p2",
+        "sentence": "내가 도와줄 수 있어.",
+        "answer": [
+          "내가",
+          "도와줄",
+          "수",
+          "있어."
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper1_02",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "새 짝",
+    "icon": "👫",
+    "location": "교실",
+    "level": 1,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "tyson",
+        "name": "타이슨",
+        "avatar": "타"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      },
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "tyson",
+        "text": "내 짝은 엠마예요. 엠마는 머리가 길어요. 그리고 얼굴이 작아요."
+      },
+      {
+        "character": "jangwi",
+        "text": "내 짝은 타이슨이에요. 타이슨은 키가 크고 다리가 길어요."
+      },
+      {
+        "character": "daniel",
+        "text": "내 짝은 유키예요. 유키는 머리카락이 짧아요. 그리고 날씬해요."
+      },
+      {
+        "character": "yuki",
+        "text": "내 짝은 다니엘이에요. 다니엘은 몸이 튼튼하고 힘이 세요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_02_p1",
+        "sentence": "타이슨은 키가 크고 다리가 길어요.",
+        "answer": [
+          "타이슨은",
+          "키가",
+          "크고",
+          "다리가",
+          "길어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_02_p2",
+        "sentence": "유키는 머리카락이 짧아요. 그리고 날씬해요.",
+        "answer": [
+          "유키는",
+          "머리카락이",
+          "짧아요.",
+          "그리고",
+          "날씬해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_02_p3",
+        "sentence": "다니엘은 몸이 튼튼하고 힘이 세요.",
+        "answer": [
+          "다니엘은",
+          "몸이",
+          "튼튼하고",
+          "힘이",
+          "세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper1_03",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "친구에게 부탁하기",
+    "icon": "🤝",
+    "location": "학교 운동장",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "daniel",
+        "text": "장위, 지금 어디야? 홈푸가 찾아."
+      },
+      {
+        "character": "jangwi",
+        "text": "학교 운동장이야. 홈푸에게 빨리 말해 줘."
+      },
+      {
+        "character": "daniel",
+        "text": "타이슨이 친구에게 공을 던져요."
+      },
+      {
+        "character": "daniel",
+        "text": "준서가 동생에게 딱지를 줘요."
+      },
+      {
+        "character": "daniel",
+        "text": "유키가 언니에게 뛰어가요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_03_p1",
+        "sentence": "타이슨이 친구에게 공을 던져요.",
+        "answer": [
+          "타이슨이",
+          "친구에게",
+          "공을",
+          "던져요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_03_p2",
+        "sentence": "준서가 동생에게 딱지를 줘요.",
+        "answer": [
+          "준서가",
+          "동생에게",
+          "딱지를",
+          "줘요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_03_p3",
+        "sentence": "오달이 그네를 밀어 주었습니다.",
+        "answer": [
+          "오달이",
+          "그네를",
+          "밀어",
+          "주었습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_03_p4",
+        "sentence": "엠마가 목걸이를 걸어 주었습니다.",
+        "answer": [
+          "엠마가",
+          "목걸이를",
+          "걸어",
+          "주었습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_03_p5",
+        "sentence": "서영이가 손을 흔들어 주었습니다.",
+        "answer": [
+          "서영이가",
+          "손을",
+          "흔들어",
+          "주었습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_03_p6",
+        "sentence": "준서가 가방을 들어 주었습니다.",
+        "answer": [
+          "준서가",
+          "가방을",
+          "들어",
+          "주었습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper1_04",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "친구 집",
+    "icon": "🏠",
+    "location": "친구 집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      },
+      {
+        "id": "mom",
+        "name": "엠마",
+        "avatar": "엠"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "유키, 안녕. 들어와도 돼."
+      },
+      {
+        "character": "yuki",
+        "text": "여기가 내 방이야."
+      },
+      {
+        "character": "yuki",
+        "text": "여기에 인형이 있어! 인형이 예쁘다."
+      },
+      {
+        "character": "mom",
+        "text": "그거 가져도 돼. 난 인형이 많아."
+      },
+      {
+        "character": "yuki",
+        "text": "창문 열어도 돼?"
+      },
+      {
+        "character": "mom",
+        "text": "응, 열어도 돼."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_04_p2",
+        "sentence": "그거 가져도 돼. 난 인형이 많아.",
+        "answer": [
+          "그거",
+          "가져도",
+          "돼.",
+          "난",
+          "인형이",
+          "많아."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_04_p3",
+        "sentence": "마당이 넓고 꽃이 많아요.",
+        "answer": [
+          "마당이",
+          "넓고",
+          "꽃이",
+          "많아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_04_p5",
+        "sentence": "교실에 들어가도 돼요.",
+        "answer": [
+          "교실에",
+          "들어가도",
+          "돼요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_04_p6",
+        "sentence": "괜찮아. 오후에 와도 돼.",
+        "answer": [
+          "괜찮아.",
+          "오후에",
+          "와도",
+          "돼."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper1_05",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "친한 친구",
+    "icon": "💛",
+    "location": "학교",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "seoyeong",
+        "name": "서영",
+        "avatar": "서"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "서영이는 친구와 친하게 지내요."
+      },
+      {
+        "character": "mom",
+        "text": "서영이는 잘 웃고 이야기를 재미있게 해요."
+      },
+      {
+        "character": "mom",
+        "text": "친구 말을 잘 들어주고 친절하게 말해요."
+      },
+      {
+        "character": "mom",
+        "text": "서영이가 내 손을 잡아 주었어요."
+      },
+      {
+        "character": "mom",
+        "text": "서영이는 정말 착하고 친절해요."
+      },
+      {
+        "character": "mom",
+        "text": "나는 서영이가 좋아요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_05_p1",
+        "sentence": "서영이는 친구와 친하게 지내요.",
+        "answer": [
+          "서영이는",
+          "친구와",
+          "친하게",
+          "지내요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_05_p2",
+        "sentence": "서영이는 잘 웃고 이야기를 재미있게 해요.",
+        "answer": [
+          "서영이는",
+          "잘",
+          "웃고",
+          "이야기를",
+          "재미있게",
+          "해요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_05_p3",
+        "sentence": "서영이가 내 손을 잡아 주었어요.",
+        "answer": [
+          "서영이가",
+          "내",
+          "손을",
+          "잡아",
+          "주었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_05_p4",
+        "sentence": "서영이는 정말 착하고 친절해요.",
+        "answer": [
+          "서영이는",
+          "정말",
+          "착하고",
+          "친절해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper1_06",
+    "unit": 1,
+    "unit_title": "친구",
+    "title": "친구 칭찬하기",
+    "icon": "🌟",
+    "location": "학교",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "vincent",
+        "name": "빈센트",
+        "avatar": "빈"
+      },
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "vincent",
+        "text": "안녕하세요. 빈센트예요. 저는 모르는 게 많아요. 친절하게 잘 알려 주세요."
+      },
+      {
+        "character": "teacher",
+        "text": "빈센트는 언제 한국에 왔어요?"
+      },
+      {
+        "character": "vincent",
+        "text": "저는 2월에 왔어요."
+      },
+      {
+        "character": "teacher",
+        "text": "빈센트는 한국에 온 지 3개월이 됐어요. 그런데도 한국어를 참 잘해요. 만나서 반가워요."
+      },
+      {
+        "character": "vincent",
+        "text": "네. 벌써 한국에 온 지 3개월이 됐어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper1_06_p1",
+        "sentence": "한국에 온 지 3개월이 됐어요.",
+        "answer": [
+          "한국에",
+          "온 지",
+          "3개월이",
+          "됐어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_06_p2",
+        "sentence": "비가 안 온 지 한 달이 됐어요.",
+        "answer": [
+          "비가",
+          "안 온 지",
+          "한 달이",
+          "됐어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_06_p3",
+        "sentence": "수업이 끝난 지 30분이 됐어요.",
+        "answer": [
+          "수업이",
+          "끝난 지",
+          "30분이",
+          "됐어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_06_p4",
+        "sentence": "한국어 배운 지 3개월 됐어. 칭찬해 줘서 고마워.",
+        "answer": [
+          "한국어",
+          "배운 지",
+          "3개월",
+          "됐어.",
+          "칭찬해 줘서",
+          "고마워."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper1_06_p7",
+        "sentence": "수영 배운 지 2년 됐어. 칭찬해 줘서 고마워.",
+        "answer": [
+          "수영",
+          "배운 지",
+          "2년",
+          "됐어.",
+          "칭찬해 줘서",
+          "고마워."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_01",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "우리 가족",
+    "icon": "👨‍👩‍👧‍👦",
+    "location": "집",
+    "level": 1,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "seoyeong",
+        "name": "서영",
+        "avatar": "서"
+      },
+      {
+        "id": "tyson",
+        "name": "타이슨",
+        "avatar": "타"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "seoyeong",
+        "text": "저는 서영이에요. 저는 아버지, 어머니, 언니와 같이 살아요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "우리 가족은 모두 4명이에요."
+      },
+      {
+        "character": "tyson",
+        "text": "저는 타이슨이에요. 우리 가족은 할아버지, 할머니, 아버지, 어머니, 형, 나, 동생이에요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_01_p1",
+        "sentence": "저는 아버지, 어머니, 언니와 같이 살아요.",
+        "answer": [
+          "저는",
+          "아버지,",
+          "어머니,",
+          "언니와",
+          "같이",
+          "살아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_01_p2",
+        "sentence": "우리 가족은 모두 4명이에요.",
+        "answer": [
+          "우리",
+          "가족은",
+          "모두",
+          "4명이에요."
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_02",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "가족사진",
+    "icon": "📷",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      },
+      {
+        "id": "mom",
+        "name": "어머니",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuki",
+        "text": "유키가 수영을 합니다."
+      },
+      {
+        "character": "mom",
+        "text": "아버지께서 수영을 하십니다."
+      },
+      {
+        "character": "yuki",
+        "text": "유키가 웃습니다."
+      },
+      {
+        "character": "mom",
+        "text": "어머니께서 웃으십니다."
+      },
+      {
+        "character": "yuki",
+        "text": "동생이 방에 있습니다."
+      },
+      {
+        "character": "mom",
+        "text": "어머니께서 방에 계십니다."
+      },
+      {
+        "character": "yuki",
+        "text": "동생이 낮잠을 잡니다."
+      },
+      {
+        "character": "mom",
+        "text": "어머니께서 낮잠을 주무십니다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_02_p1",
+        "sentence": "아버지께서 수영을 하십니다.",
+        "answer": [
+          "아버지께서",
+          "수영을",
+          "하십니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_02_p2",
+        "sentence": "어머니께서 방에 계십니다.",
+        "answer": [
+          "어머니께서",
+          "방에",
+          "계십니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_02_p3",
+        "sentence": "어머니께서 낮잠을 주무십니다.",
+        "answer": [
+          "어머니께서",
+          "낮잠을",
+          "주무십니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_02_p4",
+        "sentence": "할아버지께서 책을 읽으십니다.",
+        "answer": [
+          "할아버지께서",
+          "책을",
+          "읽으십니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_02_p5",
+        "sentence": "할머니께서 요리를 하십니다.",
+        "answer": [
+          "할머니께서",
+          "요리를",
+          "하십니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_03",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "가족 소개",
+    "icon": "👨‍👩‍👧",
+    "location": "학교",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "저는 장위예요. 우리 가족은 모두 네 명이에요."
+      },
+      {
+        "character": "jangwi",
+        "text": "아버지께서는 회사에 다니세요."
+      },
+      {
+        "character": "jangwi",
+        "text": "어머니께서는 선생님이세요."
+      },
+      {
+        "character": "jangwi",
+        "text": "동생은 유치원에 다녀요."
+      },
+      {
+        "character": "jangwi",
+        "text": "저는 장위예요. 우리 가족은 사이가 좋아요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_03_p1",
+        "sentence": "아버지께서는 회사에 다니세요.",
+        "answer": [
+          "아버지께서는",
+          "회사에",
+          "다니세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p3",
+        "sentence": "동생은 유치원에 다녀요.",
+        "answer": [
+          "동생은",
+          "유치원에",
+          "다녀요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p4",
+        "sentence": "아빠는 요리하는 것을 좋아하세요.",
+        "answer": [
+          "아빠는",
+          "요리하는",
+          "것을",
+          "좋아하세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p5",
+        "sentence": "엄마는 책 읽는 것을 좋아하세요.",
+        "answer": [
+          "엄마는",
+          "책",
+          "읽는",
+          "것을",
+          "좋아하세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p6",
+        "sentence": "저는 음악을 듣는 것을 좋아해요.",
+        "answer": [
+          "저는",
+          "음악을",
+          "듣는",
+          "것을",
+          "좋아해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p7",
+        "sentence": "남동생은 수영하는 것을 좋아해요.",
+        "answer": [
+          "남동생은",
+          "수영하는",
+          "것을",
+          "좋아해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p7",
+        "sentence": "우리 가족은 모두 네 명이에요.",
+        "answer": [
+          "우리",
+          "가족은",
+          "모두",
+          "네 명이에요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p8",
+        "sentence": "우리 가족은 사이가 좋아요.",
+        "answer": [
+          "우리",
+          "가족은",
+          "사이가",
+          "좋아요."
+        ],
+        "level": 1,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_03_p9",
+        "sentence": "여동생은 아이스크림을 먹는 것을 좋아해요.",
+        "answer": [
+          "여동생은",
+          "아이스크림을",
+          "먹는",
+          "것을",
+          "좋아해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_04",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "가족 행사",
+    "icon": "🎉",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "seoyeong",
+        "name": "서영",
+        "avatar": "서"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "seoyeong",
+        "text": "1월에 설날 가족 모임이 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "2월에 언니 중학교 졸업이 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "3월에 동생 초등학교 입학이 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "5월에 어버이날 가족 모임이 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "7월에 가족 여행이 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "12월에 동생 생일이 있어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_04_p1",
+        "sentence": "1월에 설날 가족 모임이 있어요.",
+        "answer": [
+          "1월에",
+          "설날",
+          "가족 모임이",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_04_p2",
+        "sentence": "2월에 언니 중학교 졸업이 있어요.",
+        "answer": [
+          "2월에",
+          "언니",
+          "중학교",
+          "졸업이",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_04_p3",
+        "sentence": "5월에 어버이날 가족 모임이 있어요.",
+        "answer": [
+          "5월에",
+          "어버이날",
+          "가족 모임이",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_04_p4",
+        "sentence": "3월에 동생 초등학교 입학이 있어요.",
+        "answer": [
+          "3월에",
+          "동생",
+          "초등학교",
+          "입학이",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_05",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "가족 안부",
+    "icon": "📞",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "seoyeong",
+        "name": "서영",
+        "avatar": "서"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "엄마, 언제 오세요?"
+      },
+      {
+        "character": "seoyeong",
+        "text": "응, 내일 집에 가. 아빠 오셨어?"
+      },
+      {
+        "character": "mom",
+        "text": "지금 샤워하고 계세요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "동생들은?"
+      },
+      {
+        "character": "mom",
+        "text": "한 명은 텔레비전 보고 있고, 한 명은 밥 먹고 있어요."
+      },
+      {
+        "character": "seoyeong",
+        "text": "네, 다 먹었어요. 지금 숙제하고 있어요. 엄마, 보고 싶어요."
+      },
+      {
+        "character": "mom",
+        "text": "나도 보고 싶어. 내일 빨리 갈게."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_05_p1",
+        "sentence": "장위가 음악을 듣고 있어요.",
+        "answer": [
+          "장위가",
+          "음악을",
+          "듣고",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_05_p2",
+        "sentence": "어머니께서 책을 읽고 계세요.",
+        "answer": [
+          "어머니께서",
+          "책을",
+          "읽고",
+          "계세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_05_p3",
+        "sentence": "한 명은 텔레비전 보고 있고, 한 명은 밥 먹고 있어요.",
+        "answer": [
+          "한 명은",
+          "텔레비전",
+          "보고 있고,",
+          "한 명은",
+          "밥",
+          "먹고 있어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_05_p5",
+        "sentence": "준서가 스케이트를 타고 있어요.",
+        "answer": [
+          "준서가",
+          "스케이트를",
+          "타고",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper2_06",
+    "unit": 2,
+    "unit_title": "가족과 친척",
+    "title": "친척",
+    "icon": "👨‍👩‍👧‍👦",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "junseo",
+        "name": "준서",
+        "avatar": "준"
+      },
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "junseo",
+        "text": "내 동생 생일 돌잔치에 친척들이 모였어요."
+      },
+      {
+        "character": "daniel",
+        "text": "다니엘의 친척은 할아버지, 할머니, 고모, 외삼촌, 사촌이에요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper2_06_p1",
+        "sentence": "큰아버지는 아버지의 형이에요.",
+        "answer": [
+          "큰아버지는",
+          "아버지의",
+          "형이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_06_p2",
+        "sentence": "작은아버지는 아버지의 남동생이에요.",
+        "answer": [
+          "작은아버지는",
+          "아버지의",
+          "남동생이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_06_p3",
+        "sentence": "고모는 아버지의 여동생이에요.",
+        "answer": [
+          "고모는",
+          "아버지의",
+          "여동생이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_06_p4",
+        "sentence": "이모는 어머니의 여동생이에요.",
+        "answer": [
+          "이모는",
+          "어머니의",
+          "여동생이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper2_06_p5",
+        "sentence": "외삼촌은 어머니의 남동생이에요.",
+        "answer": [
+          "외삼촌은",
+          "어머니의",
+          "남동생이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_01",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "시간표",
+    "icon": "📅",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "junseo",
+        "name": "준서",
+        "avatar": "준"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "오늘 무슨 요일이야?"
+      },
+      {
+        "character": "junseo",
+        "text": "화요일이야."
+      },
+      {
+        "character": "jangwi",
+        "text": "오늘 국어를 배운 후에 뭐 해?"
+      },
+      {
+        "character": "junseo",
+        "text": "과학을 배워."
+      },
+      {
+        "character": "jangwi",
+        "text": "수요일에 미술하기 전에 뭐 해?"
+      },
+      {
+        "character": "junseo",
+        "text": "사회를 해."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_01_p5",
+        "sentence": "국어를 배운 후에 사회를 배워요.",
+        "answer": [
+          "국어를",
+          "배운 후에",
+          "사회를",
+          "배워요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_01_p6",
+        "sentence": "미술하기 전에 사회를 해요.",
+        "answer": [
+          "미술하기",
+          "전에",
+          "사회를",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_02",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "학교 준비물",
+    "icon": "🎒",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "내일 운동장에서 체육을 할 거예요."
+      },
+      {
+        "character": "teacher",
+        "text": "운동복을 입고 오세요. 그리고 줄넘기 줄도 가져오세요."
+      },
+      {
+        "character": "teacher",
+        "text": "수학 곱셈과 나눗셈 문제를 풀어 오세요."
+      },
+      {
+        "character": "student",
+        "text": "크레파스, 색연필, 사인펜 중에서 아무것이나 가져오기."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_02_p1",
+        "sentence": "내일 운동장에서 체육을 할 거예요.",
+        "answer": [
+          "내일",
+          "운동장에서",
+          "체육을",
+          "할 거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_02_p2",
+        "sentence": "운동복을 입고 오세요. 그리고 줄넘기 줄도 가져오세요.",
+        "answer": [
+          "운동복을",
+          "입고",
+          "오세요.",
+          "그리고",
+          "줄넘기 줄도",
+          "가져오세요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_02_p3",
+        "sentence": "수학 곱셈과 나눗셈 문제를 풀어 오세요.",
+        "answer": [
+          "수학",
+          "곱셈과",
+          "나눗셈",
+          "문제를",
+          "풀어",
+          "오세요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_02_p4",
+        "sentence": "크레파스, 색연필, 사인펜 중에서 아무것이나 가져오세요.",
+        "answer": [
+          "크레파스,",
+          "색연필,",
+          "사인펜",
+          "중에서",
+          "아무것이나",
+          "가져오세요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_03",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "과학 시간",
+    "icon": "🔬",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "odal",
+        "name": "오달",
+        "avatar": "오"
+      },
+      {
+        "id": "emma",
+        "name": "엠마",
+        "avatar": "엠"
+      },
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "책상 위에 설탕, 소금, 밀가루가 있어요. 물에 섞어 보세요."
+      },
+      {
+        "character": "odal",
+        "text": "이것은 물에 녹지 않았어요. 밀가루예요."
+      },
+      {
+        "character": "teacher",
+        "text": "네, 오달이 섞은 것은 밀가루예요."
+      },
+      {
+        "character": "emma",
+        "text": "이것은 맛이 달아요. 설탕이에요."
+      },
+      {
+        "character": "teacher",
+        "text": "네, 엠마가 섞은 것은 설탕이에요."
+      },
+      {
+        "character": "daniel",
+        "text": "이것은 맛이 짜요. 소금이에요."
+      },
+      {
+        "character": "teacher",
+        "text": "네, 다니엘이 섞은 것은 소금이에요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_03_p1",
+        "sentence": "오달이 섞은 것은 밀가루예요.",
+        "answer": [
+          "오달이",
+          "섞은 것은",
+          "밀가루예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_03_p2",
+        "sentence": "밀가루는 물에 녹지 않아요. 물에 녹지 않은 것은 밀가루예요.",
+        "answer": [
+          "밀가루는",
+          "물에",
+          "녹지",
+          "않아요.",
+          "물에",
+          "녹지 않은",
+          "것은",
+          "밀가루예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_03_p3",
+        "sentence": "설탕은 맛이 달아요. 맛이 단 것은 설탕이에요.",
+        "answer": [
+          "설탕은",
+          "맛이",
+          "달아요.",
+          "맛이 단",
+          "것은",
+          "설탕이에요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_03_p4",
+        "sentence": "소금은 맛이 짜요. 맛이 짠 것은 소금이에요.",
+        "answer": [
+          "소금은",
+          "맛이",
+          "짜요.",
+          "맛이 짠",
+          "것은",
+          "소금이에요."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_04",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "수학 시간",
+    "icon": "📐",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "tyson",
+        "name": "타이슨",
+        "avatar": "타"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "시계가 지금 몇 시를 가리켜요?"
+      },
+      {
+        "character": "tyson",
+        "text": "7시 30분이에요."
+      },
+      {
+        "character": "teacher",
+        "text": "타이슨은 오늘 저녁 7시 30분에 뭐 할 거예요?"
+      },
+      {
+        "character": "tyson",
+        "text": "오늘 배운 것을 다시 공부할 거예요."
+      },
+      {
+        "character": "teacher",
+        "text": "아, 복습할 거예요? 예습도 할 거예요?"
+      },
+      {
+        "character": "tyson",
+        "text": "네, 수학을 예습할 거예요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_04_p1",
+        "sentence": "타이슨은 오후 2시 50분부터 축구를 배울 거예요.",
+        "answer": [
+          "타이슨은",
+          "오후 2시",
+          "50분부터",
+          "축구를",
+          "배울 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_04_p2",
+        "sentence": "1교시는 9시 10분부터 9시 50분까지입니다.",
+        "answer": [
+          "1교시는",
+          "9시 10분부터",
+          "9시 50분까지입니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_04_p3",
+        "sentence": "오늘 배운 것을 다시 공부할 거예요.",
+        "answer": [
+          "오늘",
+          "배운 것을",
+          "다시",
+          "공부할 거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_04_p4",
+        "sentence": "저는 3시부터 4시까지 친구들과 놀 거예요.",
+        "answer": [
+          "저는",
+          "3시부터",
+          "4시까지",
+          "친구들과",
+          "놀 거예요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_04_p5",
+        "sentence": "수학을 예습할 거예요.",
+        "answer": [
+          "수학을",
+          "예습할",
+          "거예요."
+        ],
+        "level": 1,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_05",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "학교 수업",
+    "icon": "📚",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "daniel",
+        "text": "오늘은 화요일입니다. 화요일에는 사회, 수학, 국어, 과학, 음악 수업이 있습니다."
+      },
+      {
+        "character": "daniel",
+        "text": "나는 국어 시간이 이렇게 많았습니다. 국어사전에서 날말 찾는 것을 배웠습니다."
+      },
+      {
+        "character": "daniel",
+        "text": "나는 모르는 것이 많았습니다. 한국어 날말을 더 열심히 공부할 것입니다."
+      },
+      {
+        "character": "daniel",
+        "text": "음악 시간에는 리코더를 불었습니다. 음악 숙제는 리코더 연습이 가입니다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_05_p1",
+        "sentence": "국어사전에서 날말 찾는 것을 배웠습니다.",
+        "answer": [
+          "국어사전에서",
+          "날말",
+          "찾는 것을",
+          "배웠습니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_05_p2",
+        "sentence": "수학 시간에 막대그래프를 배웠습니다.",
+        "answer": [
+          "수학",
+          "시간에",
+          "막대그래프를",
+          "배웠습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_05_p3",
+        "sentence": "음악 시간에 리코더를 불었습니다.",
+        "answer": [
+          "음악",
+          "시간에",
+          "리코더를",
+          "불었습니다."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_05_p4",
+        "sentence": "한국어 날말을 더 열심히 공부할 것입니다.",
+        "answer": [
+          "한국어",
+          "날말을",
+          "더",
+          "열심히",
+          "공부할 것입니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper3_06",
+    "unit": 3,
+    "unit_title": "학교 수업",
+    "title": "학교 행사",
+    "icon": "🎪",
+    "location": "학교",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "도서관 행사에서 뭐 해요?"
+      },
+      {
+        "character": "teacher",
+        "text": "동화 작가를 만나거나 독서 신문을 만들어요."
+      },
+      {
+        "character": "jangwi",
+        "text": "둘 다 할 수 있어요?"
+      },
+      {
+        "character": "teacher",
+        "text": "아니요. 같은 시간에 같이 해요. 그래서 하나만 할 수 있어요."
+      },
+      {
+        "character": "jangwi",
+        "text": "영어 교실에서 뭐 해요?"
+      },
+      {
+        "character": "teacher",
+        "text": "영어 책을 읽거나 원어민 선생님과 대화해요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper3_06_p1",
+        "sentence": "동화 작가를 만나거나 독서 신문을 만들어요.",
+        "answer": [
+          "동화 작가를",
+          "만나거나",
+          "독서 신문을",
+          "만들어요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_06_p2",
+        "sentence": "영어 책을 읽거나 원어민 선생님과 대화해요.",
+        "answer": [
+          "영어 책을",
+          "읽거나",
+          "원어민 선생님과",
+          "대화해요."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_06_p3",
+        "sentence": "매주 금요일에 영어 교실을 해요.",
+        "answer": [
+          "매주",
+          "금요일에",
+          "영어 교실을",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_06_p4",
+        "sentence": "수영 교육은 사흘 동안 해요.",
+        "answer": [
+          "수영 교육은",
+          "사흘",
+          "동안",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_06_p5",
+        "sentence": "우리 학교는 매월 첫 번째 주 월요일에 도서관 행사를 합니다.",
+        "answer": [
+          "우리 학교는",
+          "매월",
+          "첫 번째 주",
+          "월요일에",
+          "도서관 행사를",
+          "합니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      },
+      {
+        "id": "upper3_06_p6",
+        "sentence": "7월 6일은 노래 부르기 대회를 하는 날입니다.",
+        "answer": [
+          "7월 6일은",
+          "노래 부르기",
+          "대회를",
+          "하는",
+          "날입니다."
+        ],
+        "level": 3,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_01",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "오늘의 날씨",
+    "icon": "🌤️",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "daniel",
+        "text": "엄마, 오늘 날씨가 어때요?"
+      },
+      {
+        "character": "mom",
+        "text": "눈이 많이 와."
+      },
+      {
+        "character": "daniel",
+        "text": "지금 몇 도예요?"
+      },
+      {
+        "character": "mom",
+        "text": "영하 8도야."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_01_p1",
+        "sentence": "오늘 날씨가 흐려요.",
+        "answer": [
+          "오늘",
+          "날씨가",
+          "흐려요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_01_p2",
+        "sentence": "비도 오고 바람도 불어요.",
+        "answer": [
+          "비도",
+          "오고",
+          "바람도",
+          "불어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_01_p3",
+        "sentence": "천둥 번개가 세게 쳐요.",
+        "answer": [
+          "천둥",
+          "번개가",
+          "세게",
+          "쳐요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_01_p4",
+        "sentence": "오늘은 영하 8도예요.",
+        "answer": [
+          "오늘은",
+          "영하",
+          "8도예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_01_p5",
+        "sentence": "바람이 세게 불어요.",
+        "answer": [
+          "바람이",
+          "세게",
+          "불어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_02",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "날씨와 옷차림",
+    "icon": "🧥",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "더운 날에는 시원한 옷을 입어요."
+      },
+      {
+        "character": "teacher",
+        "text": "짧은 반바지와 티셔츠가 좋아요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_02_p1",
+        "sentence": "날씨가 추우면 두툼한 외투를 입어요.",
+        "answer": [
+          "날씨가",
+          "추우면",
+          "두툼한",
+          "외투를",
+          "입어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_02_p2",
+        "sentence": "비가 오면 비옷을 입고 장화를 신어요.",
+        "answer": [
+          "비가",
+          "오면",
+          "비옷을",
+          "입고",
+          "장화를",
+          "신어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_02_p3",
+        "sentence": "더운 날에는 짧은 반바지와 티셔츠를 입어요.",
+        "answer": [
+          "더운",
+          "날에는",
+          "짧은",
+          "반바지와",
+          "티셔츠를",
+          "입어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_02_p4",
+        "sentence": "날씨가 더우면 시원한 옷을 입는 게 좋아요.",
+        "answer": [
+          "날씨가",
+          "더우면",
+          "시원한",
+          "옷을",
+          "입는",
+          "게",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_03",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "여름 놀이",
+    "icon": "🏊",
+    "location": "수영장",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "odel",
+        "name": "오델",
+        "avatar": "오"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "여름에 무엇을 할 수 있어요?"
+      },
+      {
+        "character": "jangwi",
+        "text": "물놀이를 할 수 있어요."
+      },
+      {
+        "character": "odel",
+        "text": "맛있는 수박도 먹을 수 있어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_03_p1",
+        "sentence": "여름에 바다에서 물놀이를 할 수 있어요.",
+        "answer": [
+          "여름에",
+          "바다에서",
+          "물놀이를",
+          "할",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_03_p2",
+        "sentence": "여름에 수영장에서 물 미끄럼틀을 탈 수 있어요.",
+        "answer": [
+          "여름에",
+          "수영장에서",
+          "물",
+          "미끄럼틀을",
+          "탈",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_03_p3",
+        "sentence": "여름에 계곡에서 물총 놀이를 할 수 있어요.",
+        "answer": [
+          "여름에",
+          "계곡에서",
+          "물총",
+          "놀이를",
+          "할",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_03_p4",
+        "sentence": "여름에 맛있는 수박을 먹을 수 있어요.",
+        "answer": [
+          "여름에",
+          "맛있는",
+          "수박을",
+          "먹을",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_04",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "겨울 놀이",
+    "icon": "⛄",
+    "location": "학교 운동장",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "taisun",
+        "text": "눈이 오니까 좋아."
+      },
+      {
+        "character": "jangwi",
+        "text": "맞아. 눈이 오면 눈사람을 만들 수 있어. 눈이 더 쌓이면 눈썰매를 타러 가자!"
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_04_p1",
+        "sentence": "눈이 오면 눈사람을 만들 수 있어요.",
+        "answer": [
+          "눈이",
+          "오면",
+          "눈사람을",
+          "만들",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_04_p2",
+        "sentence": "눈이 더 쌓이면 눈썰매를 타러 갈 수 있어요.",
+        "answer": [
+          "눈이",
+          "더",
+          "쌓이면",
+          "눈썰매를",
+          "타러",
+          "갈",
+          "수",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_04_p3",
+        "sentence": "겨울 방학이 되면 할머니 댁에 갈 거예요.",
+        "answer": [
+          "겨울",
+          "방학이",
+          "되면",
+          "할머니",
+          "댁에",
+          "갈",
+          "거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_04_p4",
+        "sentence": "방학이 되면 아빠와 얼음낚시를 하고 싶어요.",
+        "answer": [
+          "방학이",
+          "되면",
+          "아빠와",
+          "얼음낚시를",
+          "하고",
+          "싶어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_05",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "좋아하는 계절",
+    "icon": "🍂",
+    "location": "공원",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuki",
+        "text": "엄마, 꽃이 활짝 피었어요. 저는 예쁜 꽃을 볼 수 있어서 봄이 좋아요."
+      },
+      {
+        "character": "mom",
+        "text": "엄마는 예쁜 단풍을 구경할 수 있어서 가을이 좋아."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_05_p1",
+        "sentence": "저는 예쁜 꽃을 볼 수 있어서 봄이 좋아요.",
+        "answer": [
+          "저는",
+          "예쁜",
+          "꽃을",
+          "볼",
+          "수",
+          "있어서",
+          "봄이",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_05_p2",
+        "sentence": "수영을 할 수 있어서 여름이 좋아요.",
+        "answer": [
+          "수영을",
+          "할",
+          "수",
+          "있어서",
+          "여름이",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_05_p3",
+        "sentence": "빨갛고 노란 단풍을 볼 수 있어서 가을이 좋아요.",
+        "answer": [
+          "빨갛고",
+          "노란",
+          "단풍을",
+          "볼",
+          "수",
+          "있어서",
+          "가을이",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_05_p4",
+        "sentence": "땀이 줄줄 흘러서 시원한 물을 마셨어요.",
+        "answer": [
+          "땀이",
+          "줄줄",
+          "흘러서",
+          "시원한",
+          "물을",
+          "마셨어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper4_06",
+    "unit": 4,
+    "unit_title": "날씨와 계절",
+    "title": "날씨에 따라 주의할 점",
+    "icon": "😷",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "students",
+        "name": "학생들",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "아침에는 쌀쌀하고 오후에는 조금 더워요."
+      },
+      {
+        "character": "teacher",
+        "text": "이럴 때 감기에 잘 걸려요. 아침에 학교에 올 때 겉옷을 꼭 입고 오세요."
+      },
+      {
+        "character": "students",
+        "text": "네."
+      },
+      {
+        "character": "teacher",
+        "text": "더울 때는 시원한 물을 자주 마셔요. 집에 돌아가면 손을 깨끗하게 씻고요."
+      },
+      {
+        "character": "students",
+        "text": "네, 선생님."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper4_06_p1",
+        "sentence": "미세 먼지가 심한 날에는 마스크를 꼭 써요.",
+        "answer": [
+          "미세",
+          "먼지가",
+          "심한",
+          "날에는",
+          "마스크를",
+          "꼭",
+          "써요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_06_p2",
+        "sentence": "추운 날 길이 얼면 미끄러지기 쉬워요.",
+        "answer": [
+          "추운",
+          "날",
+          "길이",
+          "얼면",
+          "미끄러지기",
+          "쉬워요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_06_p3",
+        "sentence": "아침에 학교에 올 때 겉옷을 꼭 입고 오세요.",
+        "answer": [
+          "아침에",
+          "학교에",
+          "올",
+          "때",
+          "겉옷을",
+          "꼭",
+          "입고",
+          "오세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper4_06_p4",
+        "sentence": "집에 돌아가면 손을 깨끗하게 씻어요.",
+        "answer": [
+          "집에",
+          "돌아가면",
+          "손을",
+          "깨끗하게",
+          "씻어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
   }
 ]
