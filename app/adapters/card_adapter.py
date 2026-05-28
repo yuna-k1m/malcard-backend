@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-CARDS_PATH = Path(__file__).parent.parent.parent / "cards_v2.json"
+CARDS_PATH = Path(__file__).parent.parent.parent / "cards_v3.json"
 
 def load_cards() -> list[dict]:
     with open(CARDS_PATH, encoding="utf-8") as f:
