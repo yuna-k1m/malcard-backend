@@ -6041,5 +6041,2490 @@
         "audio_path": null
       }
     ]
+  },
+  {
+    "id": "upper5_01",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "방학하는 날",
+    "icon": "📅",
+    "location": "교실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "내일부터 여름 방학이에요. 방학 재미있게 보내세요."
+      },
+      {
+        "character": "jangwi",
+        "text": "언제 학교 와요?"
+      },
+      {
+        "character": "teacher",
+        "text": "8월 27일에 개학하니까 그날 학교에 오세요."
+      },
+      {
+        "character": "jangwi",
+        "text": "겨울 방학은 언제예요?"
+      },
+      {
+        "character": "teacher",
+        "text": "겨울 방학은 12월 24일부터 1월 28일까지예요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_01_p1",
+        "sentence": "7월과 8월이 너무 더우니까 여름 방학을 해요.",
+        "answer": [
+          "7월과",
+          "8월이",
+          "너무",
+          "더우니까",
+          "여름",
+          "방학을",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_01_p2",
+        "sentence": "12월과 1월이 너무 추우니까 겨울 방학을 해요.",
+        "answer": [
+          "12월과",
+          "1월이",
+          "너무",
+          "추우니까",
+          "겨울",
+          "방학을",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_01_p3",
+        "sentence": "여름 방학은 7월 26일부터 8월 26일까지예요.",
+        "answer": [
+          "여름",
+          "방학은",
+          "7월",
+          "26일부터",
+          "8월",
+          "26일까지예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_01_p4",
+        "sentence": "8월 27일에 개학하니까 그날 학교에 와요.",
+        "answer": [
+          "8월",
+          "27일에",
+          "개학하니까",
+          "그날",
+          "학교에",
+          "와요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper5_02",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "여름 방학",
+    "icon": "🏊",
+    "location": "수영장",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "odel",
+        "name": "오달",
+        "avatar": "오"
+      },
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "odel",
+        "text": "내일 수영장 갈 때 수영모 꼭 준비해."
+      },
+      {
+        "character": "taisun",
+        "text": "물 미끄럼틀을 타고 싶어."
+      },
+      {
+        "character": "odel",
+        "text": "파도 풀에 놀고 싶어. 파도가 칠 때 재미있어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_02_p1",
+        "sentence": "내일 수영장 갈 때 수영모를 꼭 준비해요.",
+        "answer": [
+          "내일",
+          "수영장",
+          "갈",
+          "때",
+          "수영모를",
+          "꼭",
+          "준비해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_02_p2",
+        "sentence": "물에 들어갈 때 수영모를 꼭 써요.",
+        "answer": [
+          "물에",
+          "들어갈",
+          "때",
+          "수영모를",
+          "꼭",
+          "써요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_02_p3",
+        "sentence": "걸어 다닐 때 미끄러지지 않게 조심해요.",
+        "answer": [
+          "걸어",
+          "다닐",
+          "때",
+          "미끄러지지",
+          "않게",
+          "조심해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_02_p4",
+        "sentence": "튜브를 탈 때 손잡이를 꼭 잡아요.",
+        "answer": [
+          "튜브를",
+          "탈",
+          "때",
+          "손잡이를",
+          "꼭",
+          "잡아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper5_03",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "방학 숙제",
+    "icon": "📚",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "yuki",
+        "text": "나는 방학에 제주도로 여행을 하고 싶어."
+      },
+      {
+        "character": "friend",
+        "text": "나는 방학에 영화나 연극을 보고 싶어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_03_p1",
+        "sentence": "방학에 박물관이나 미술관에 가고 싶어요.",
+        "answer": [
+          "방학에",
+          "박물관이나",
+          "미술관에",
+          "가고",
+          "싶어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_03_p2",
+        "sentence": "방학에 영화나 연극을 보고 싶어요.",
+        "answer": [
+          "방학에",
+          "영화나",
+          "연극을",
+          "보고",
+          "싶어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_03_p3",
+        "sentence": "방학 숙제로 그림을 그리거나 만들기를 해요.",
+        "answer": [
+          "방학",
+          "숙제로",
+          "그림을",
+          "그리거나",
+          "만들기를",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_03_p4",
+        "sentence": "일주일에 책을 한 권이나 두 권 읽어요.",
+        "answer": [
+          "일주일에",
+          "책을",
+          "한",
+          "권이나",
+          "두",
+          "권",
+          "읽어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper5_04",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "방학 규칙",
+    "icon": "📋",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "daniel",
+        "text": "운동을 열심히 한다."
+      },
+      {
+        "character": "daniel",
+        "text": "동생과 싸우지 않는다."
+      },
+      {
+        "character": "daniel",
+        "text": "위험한 놀이를 하지 않는다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_04_p1",
+        "sentence": "방학에 동생과 싸우지 않아요.",
+        "answer": [
+          "방학에",
+          "동생과",
+          "싸우지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_04_p2",
+        "sentence": "방학에 위험한 놀이를 하지 않아요.",
+        "answer": [
+          "방학에",
+          "위험한",
+          "놀이를",
+          "하지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_04_p3",
+        "sentence": "컴퓨터 게임 시간을 줄여요.",
+        "answer": [
+          "컴퓨터",
+          "게임",
+          "시간을",
+          "줄여요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_04_p4",
+        "sentence": "방학에도 일찍 자고 일찍 일어나요.",
+        "answer": [
+          "방학에도",
+          "일찍",
+          "자고",
+          "일찍",
+          "일어나요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper5_05",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "방학 여행",
+    "icon": "✈️",
+    "location": "제주도",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "child",
+        "name": "아이",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "이번 방학에는 제주도로 여행 갈 거야."
+      },
+      {
+        "character": "child",
+        "text": "바다에 갈 때 뭐 준비해요?"
+      },
+      {
+        "character": "mom",
+        "text": "바다에 가니까 수영복이랑 모자를 준비해. 한라산에 갈 때 운동화랑 우산도 가져갈 거야."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_05_p1",
+        "sentence": "한라산에 갈 때 운동화랑 우산을 준비해요.",
+        "answer": [
+          "한라산에",
+          "갈",
+          "때",
+          "운동화랑",
+          "우산을",
+          "준비해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_05_p2",
+        "sentence": "여행 갈 때 양말이랑 속옷을 준비해요.",
+        "answer": [
+          "여행",
+          "갈",
+          "때",
+          "양말이랑",
+          "속옷을",
+          "준비해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_05_p3",
+        "sentence": "여행 갈 때 티셔츠랑 반바지를 준비해요.",
+        "answer": [
+          "여행",
+          "갈",
+          "때",
+          "티셔츠랑",
+          "반바지를",
+          "준비해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_05_p4",
+        "sentence": "여행 갈 때 휴지랑 휴대 전화를 챙겨요.",
+        "answer": [
+          "여행",
+          "갈",
+          "때",
+          "휴지랑",
+          "휴대",
+          "전화를",
+          "챙겨요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper5_06",
+    "unit": 5,
+    "unit_title": "방학",
+    "title": "겨울 방학에 한 일",
+    "icon": "⛷️",
+    "location": "스키장",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "겨울 방학에 무엇을 했어요?"
+      },
+      {
+        "character": "taisun",
+        "text": "아침 일찍 아빠와 스키장에 갔다. 나는 오늘 처음 스키를 탔다. 아빠와 타기 전에 따로 스키를 배웠다. 아빠와 함께 탈 때 더 재미있었다."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper5_06_p1",
+        "sentence": "저는 중국에서 친척을 만났어요.",
+        "answer": [
+          "저는",
+          "중국에서",
+          "친척을",
+          "만났어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_06_p2",
+        "sentence": "아빠와 타기 전에 따로 스키를 배웠어요.",
+        "answer": [
+          "아빠와",
+          "타기",
+          "전에",
+          "따로",
+          "스키를",
+          "배웠어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_06_p3",
+        "sentence": "아빠와 함께 스키를 탈 때 더 재미있었어요.",
+        "answer": [
+          "아빠와",
+          "함께",
+          "스키를",
+          "탈",
+          "때",
+          "더",
+          "재미있었어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper5_06_p4",
+        "sentence": "겨울 방학에 할머니 댁에 갔어요.",
+        "answer": [
+          "겨울",
+          "방학에",
+          "할머니",
+          "댁에",
+          "갔어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_01",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "음식과 맛",
+    "icon": "🍖",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "엄마, 뭐 만드세요?"
+      },
+      {
+        "character": "mom",
+        "text": "불고기를 만들고 있어."
+      },
+      {
+        "character": "jangwi",
+        "text": "불고기는 무슨 맛이에요?"
+      },
+      {
+        "character": "mom",
+        "text": "짠맛도 나고 단맛도 나. 한번 먹어 봐."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_01_p1",
+        "sentence": "불고기는 짠맛도 나고 단맛도 나요.",
+        "answer": [
+          "불고기는",
+          "짠맛도",
+          "나고",
+          "단맛도",
+          "나요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_01_p2",
+        "sentence": "김치찌개는 맵고 짜요.",
+        "answer": [
+          "김치찌개는",
+          "맵고",
+          "짜요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_01_p3",
+        "sentence": "레몬은 맛이 시어요.",
+        "answer": [
+          "레몬은",
+          "맛이",
+          "시어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_01_p4",
+        "sentence": "도넛은 달고 맛있어요.",
+        "answer": [
+          "도넛은",
+          "달고",
+          "맛있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_02",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "여러 가지 음식",
+    "icon": "🍱",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "odel",
+        "name": "오달",
+        "avatar": "오"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "odel",
+        "text": "많이 먹으면 뚱뚱해지는 음식은 치킨이야."
+      },
+      {
+        "character": "odel",
+        "text": "내가 좋아하는 음식은 비빔밥이야."
+      },
+      {
+        "character": "odel",
+        "text": "내가 싫어하는 음식은 생선구이야."
+      },
+      {
+        "character": "odel",
+        "text": "내가 못 먹는 음식은 삼겹살이야."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_02_p1",
+        "sentence": "내가 좋아하는 음식은 비빔밥이에요.",
+        "answer": [
+          "내가",
+          "좋아하는",
+          "음식은",
+          "비빔밥이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_02_p2",
+        "sentence": "내가 싫어하는 음식은 생선구이예요.",
+        "answer": [
+          "내가",
+          "싫어하는",
+          "음식은",
+          "생선구이예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_02_p3",
+        "sentence": "내가 못 먹는 음식은 삼겹살이에요.",
+        "answer": [
+          "내가",
+          "못",
+          "먹는",
+          "음식은",
+          "삼겹살이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_02_p4",
+        "sentence": "많이 먹으면 뚱뚱해지는 음식은 치킨이에요.",
+        "answer": [
+          "많이",
+          "먹으면",
+          "뚱뚱해지는",
+          "음식은",
+          "치킨이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_03",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "음식 먹는 방법",
+    "icon": "🥢",
+    "location": "식당",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "emma",
+        "name": "엠마",
+        "avatar": "엠"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "emma",
+        "text": "엄마, 삼겹살은 어떻게 먹어요?"
+      },
+      {
+        "character": "mom",
+        "text": "상추에 고기를 싸서 먹는 거야."
+      },
+      {
+        "character": "emma",
+        "text": "그럼 만두는요?"
+      },
+      {
+        "character": "mom",
+        "text": "만두는 간장에 찍어서 먹으면 맛있어."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_03_p1",
+        "sentence": "상추에 고기를 싸서 먹어요.",
+        "answer": [
+          "상추에",
+          "고기를",
+          "싸서",
+          "먹어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_03_p2",
+        "sentence": "만두는 간장에 찍어서 먹으면 맛있어요.",
+        "answer": [
+          "만두는",
+          "간장에",
+          "찍어서",
+          "먹으면",
+          "맛있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_03_p3",
+        "sentence": "빵에 버터를 발라서 먹어요.",
+        "answer": [
+          "빵에",
+          "버터를",
+          "발라서",
+          "먹어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_03_p4",
+        "sentence": "피자에 치즈 가루를 뿌려서 먹어요.",
+        "answer": [
+          "피자에",
+          "치즈",
+          "가루를",
+          "뿌려서",
+          "먹어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_04",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "요리법",
+    "icon": "👨‍🍳",
+    "location": "주방",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "host",
+        "name": "진행자",
+        "avatar": "진"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "host",
+        "text": "오늘은 삶은 달걀 샌드위치를 만들 거예요."
+      },
+      {
+        "character": "host",
+        "text": "먼저 물을 끓여요. 끓인 물에 달걀을 넣고 삶아요."
+      },
+      {
+        "character": "host",
+        "text": "삶은 달걀을 작게 잘라요. 당근도 작게 잘라 주세요."
+      },
+      {
+        "character": "host",
+        "text": "빵에 섞은 재료를 발라 주세요. 자른 빵을 예쁘게 접시에 놓으세요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_04_p1",
+        "sentence": "끓인 물에 달걀을 넣고 삶아요.",
+        "answer": [
+          "끓인",
+          "물에",
+          "달걀을",
+          "넣고",
+          "삶아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_04_p2",
+        "sentence": "삶은 달걀을 작게 잘라요.",
+        "answer": [
+          "삶은",
+          "달걀을",
+          "작게",
+          "잘라요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_04_p3",
+        "sentence": "달걀, 당근, 마요네즈를 섞어 주세요.",
+        "answer": [
+          "달걀,",
+          "당근,",
+          "마요네즈를",
+          "섞어",
+          "주세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_04_p4",
+        "sentence": "자른 빵을 접시에 예쁘게 놓아요.",
+        "answer": [
+          "자른",
+          "빵을",
+          "접시에",
+          "예쁘게",
+          "놓아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_05",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "생일에 먹는 음식",
+    "icon": "🎂",
+    "location": "마트",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "junseo",
+        "name": "준서",
+        "avatar": "준"
+      },
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "junseo",
+        "text": "내일은 제 생일이에요. 내일 우리 집에서 생일 파티가 있어요."
+      },
+      {
+        "character": "junseo",
+        "text": "엄마와 같이 마트에 왔어요."
+      },
+      {
+        "character": "junseo",
+        "text": "친구들과 같이 먹을 과자를 샀어요. 같이 마실 주스와 우유도 샀어요."
+      },
+      {
+        "character": "junseo",
+        "text": "엄마가 제 생일에 만들 음식은 미역국과 잡채예요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_05_p1",
+        "sentence": "친구들과 같이 먹을 과자를 샀어요.",
+        "answer": [
+          "친구들과",
+          "같이",
+          "먹을",
+          "과자를",
+          "샀어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_05_p2",
+        "sentence": "같이 마실 주스와 우유도 샀어요.",
+        "answer": [
+          "같이",
+          "마실",
+          "주스와",
+          "우유도",
+          "샀어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_05_p3",
+        "sentence": "친구들에게 줄 수첩도 샀어요.",
+        "answer": [
+          "친구들에게",
+          "줄",
+          "수첩도",
+          "샀어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_05_p4",
+        "sentence": "엄마가 생일에 만들 음식은 미역국과 잡채예요.",
+        "answer": [
+          "엄마가",
+          "생일에",
+          "만들",
+          "음식은",
+          "미역국과",
+          "잡채예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper6_06",
+    "unit": 6,
+    "unit_title": "음식과 맛",
+    "title": "급식 시간",
+    "icon": "🍽️",
+    "location": "급식실",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "seoyoung",
+        "name": "서영",
+        "avatar": "서"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "seoyoung",
+        "text": "장위야, 음식이 흘러. 식판을 잘 들어."
+      },
+      {
+        "character": "jangwi",
+        "text": "고마워. 음식이 흐르는 줄 몰랐어."
+      },
+      {
+        "character": "seoyoung",
+        "text": "국과 밥을 받을 때는 식판을 돌려."
+      },
+      {
+        "character": "jangwi",
+        "text": "응. 그런데 반찬을 더 먹고 싶을 때는 어떻게 말해?"
+      },
+      {
+        "character": "seoyoung",
+        "text": "반찬 좀 더 주세요라고 말해."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper6_06_p1",
+        "sentence": "음식이 흘러서 식판을 잘 들어요.",
+        "answer": [
+          "음식이",
+          "흘러서",
+          "식판을",
+          "잘",
+          "들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_06_p2",
+        "sentence": "국과 밥을 받을 때는 식판을 돌려요.",
+        "answer": [
+          "국과",
+          "밥을",
+          "받을",
+          "때는",
+          "식판을",
+          "돌려요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_06_p3",
+        "sentence": "반찬을 더 먹고 싶을 때는 손을 들어요.",
+        "answer": [
+          "반찬을",
+          "더",
+          "먹고",
+          "싶을",
+          "때는",
+          "손을",
+          "들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper6_06_p4",
+        "sentence": "음식을 다 받은 후 식판을 돌리지 마세요.",
+        "answer": [
+          "음식을",
+          "다",
+          "받은",
+          "후",
+          "식판을",
+          "돌리지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_01",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "물건 가격",
+    "icon": "💰",
+    "location": "가게",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      },
+      {
+        "id": "owner",
+        "name": "주인",
+        "avatar": "주"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "taisun",
+        "text": "아줌마, 이 과자 얼마예요?"
+      },
+      {
+        "character": "owner",
+        "text": "1000원이야."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_01_p1",
+        "sentence": "이 과자는 1000원이에요.",
+        "answer": [
+          "이",
+          "과자는",
+          "1000원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_01_p2",
+        "sentence": "지우개 가격은 300원이에요.",
+        "answer": [
+          "지우개",
+          "가격은",
+          "300원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_01_p3",
+        "sentence": "아이스크림은 600원이에요.",
+        "answer": [
+          "아이스크림은",
+          "600원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_02",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "물건을 살 수 있는 곳",
+    "icon": "🏪",
+    "location": "슈퍼마켓",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "daniel",
+        "name": "다니엘",
+        "avatar": "다"
+      },
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "daniel",
+        "text": "넌 어디에서 아이스크림을 사?"
+      },
+      {
+        "character": "yuki",
+        "text": "나는 슈퍼마켓에서 아이스크림을 사. 슈퍼마켓이 편의점보다 집에서 가까워."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_02_p1",
+        "sentence": "마트가 슈퍼마켓보다 물건이 다양해요.",
+        "answer": [
+          "마트가",
+          "슈퍼마켓보다",
+          "물건이",
+          "다양해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_02_p2",
+        "sentence": "편의점이 슈퍼마켓보다 집에서 가까워요.",
+        "answer": [
+          "편의점이",
+          "슈퍼마켓보다",
+          "집에서",
+          "가까워요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_02_p3",
+        "sentence": "편의점이 슈퍼마켓보다 늦게까지 해요.",
+        "answer": [
+          "편의점이",
+          "슈퍼마켓보다",
+          "늦게까지",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_02_p4",
+        "sentence": "시장이 슈퍼마켓보다 물건값이 싸요.",
+        "answer": [
+          "시장이",
+          "슈퍼마켓보다",
+          "물건값이",
+          "싸요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_02_p5",
+        "sentence": "백화점이 시장보다 물건값이 비싸요.",
+        "answer": [
+          "백화점이",
+          "시장보다",
+          "물건값이",
+          "비싸요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_02_p6",
+        "sentence": "나는 슈퍼마켓에서 아이스크림을 사요.",
+        "answer": [
+          "나는",
+          "슈퍼마켓에서",
+          "아이스크림을",
+          "사요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_03",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "문구점에서 학용품 사기",
+    "icon": "✏️",
+    "location": "문구점",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "odel",
+        "name": "오달",
+        "avatar": "오"
+      },
+      {
+        "id": "owner",
+        "name": "주인",
+        "avatar": "주"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "owner",
+        "text": "어서 오세요."
+      },
+      {
+        "character": "odel",
+        "text": "안녕하세요. 알림장 두 권 주세요. 얼마예요?"
+      },
+      {
+        "character": "owner",
+        "text": "1000원이에요."
+      },
+      {
+        "character": "odel",
+        "text": "돈 여기 있어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_03_p1",
+        "sentence": "알림장 두 권에 1000원이에요.",
+        "answer": [
+          "알림장",
+          "두",
+          "권에",
+          "1000원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_03_p2",
+        "sentence": "흰색 도화지 3장에 600원이에요.",
+        "answer": [
+          "흰색",
+          "도화지",
+          "3장에",
+          "600원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_03_p3",
+        "sentence": "12색 물감은 4500원이에요.",
+        "answer": [
+          "12색",
+          "물감은",
+          "4500원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_03_p4",
+        "sentence": "실내화 1켤레는 8000원이에요.",
+        "answer": [
+          "실내화",
+          "1켤레는",
+          "8000원이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_03_p5",
+        "sentence": "문구점에서 연필깎이를 샀어요.",
+        "answer": [
+          "문구점에서",
+          "연필깎이를",
+          "샀어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_04",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "슈퍼마켓에서 물건 사기",
+    "icon": "🛒",
+    "location": "슈퍼마켓",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      },
+      {
+        "id": "owner",
+        "name": "주인",
+        "avatar": "주"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "taisun",
+        "text": "아이스크림 3개 계산해 주세요."
+      },
+      {
+        "character": "owner",
+        "text": "모두 1500원이에요. 봉지에 넣어 줄까요?"
+      },
+      {
+        "character": "taisun",
+        "text": "네, 봉지에 넣어 주세요."
+      },
+      {
+        "character": "owner",
+        "text": "여기 거스름돈 500원 있어요. 영수증 줄까요?"
+      },
+      {
+        "character": "taisun",
+        "text": "네, 영수증 주세요. 감사합니다."
+      },
+      {
+        "character": "owner",
+        "text": "또 오세요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_04_p1",
+        "sentence": "아이스크림 3개 계산해 주세요.",
+        "answer": [
+          "아이스크림",
+          "3개",
+          "계산해",
+          "주세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_04_p2",
+        "sentence": "봉지에 넣어 줄까요?",
+        "answer": [
+          "봉지에",
+          "넣어",
+          "줄까요?"
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_04_p3",
+        "sentence": "여기 거스름돈 500원 있어요.",
+        "answer": [
+          "여기",
+          "거스름돈",
+          "500원",
+          "있어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_05",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "옷 고르기",
+    "icon": "👕",
+    "location": "옷 가게",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "emma",
+        "name": "엠마",
+        "avatar": "엠"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "이 빨간색 티셔츠 어때?"
+      },
+      {
+        "character": "emma",
+        "text": "모양은 괜찮지만 색깔이 별로 마음에 안 들어요."
+      },
+      {
+        "character": "mom",
+        "text": "그러면 다른 색을 골라 봐."
+      },
+      {
+        "character": "emma",
+        "text": "저는 노란색이 마음에 들어요."
+      },
+      {
+        "character": "mom",
+        "text": "그래, 그럼 저 노란색 티셔츠를 사자."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_05_p1",
+        "sentence": "모양은 괜찮지만 색깔이 마음에 안 들어요.",
+        "answer": [
+          "모양은",
+          "괜찮지만",
+          "색깔이",
+          "마음에",
+          "안",
+          "들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_05_p2",
+        "sentence": "이 원피스는 조금 짧지만 모양이 마음에 들어요.",
+        "answer": [
+          "이",
+          "원피스는",
+          "조금",
+          "짧지만",
+          "모양이",
+          "마음에",
+          "들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_05_p3",
+        "sentence": "모양이 예쁘지만 값이 비싸요.",
+        "answer": [
+          "모양이",
+          "예쁘지만",
+          "값이",
+          "비싸요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_05_p4",
+        "sentence": "이 옷은 몸에 딱 맞지만 제가 좋아하는 색깔이 아니에요.",
+        "answer": [
+          "이",
+          "옷은",
+          "몸에",
+          "딱",
+          "맞지만",
+          "제가",
+          "좋아하는",
+          "색깔이",
+          "아니에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_05_p5",
+        "sentence": "저는 노란색 티셔츠가 마음에 들어요.",
+        "answer": [
+          "저는",
+          "노란색",
+          "티셔츠가",
+          "마음에",
+          "들어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper7_06",
+    "unit": 7,
+    "unit_title": "물건 사기",
+    "title": "용돈",
+    "icon": "💵",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "yuki",
+        "name": "유키",
+        "avatar": "유"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "유키야, 이번 주 용돈 3000원이야."
+      },
+      {
+        "character": "yuki",
+        "text": "고마워요, 엄마."
+      },
+      {
+        "character": "mom",
+        "text": "용돈을 어디에 쓸 거야?"
+      },
+      {
+        "character": "yuki",
+        "text": "돈을 모아서 장위 생일 선물을 살 거예요."
+      },
+      {
+        "character": "mom",
+        "text": "뭘 살 거야?"
+      },
+      {
+        "character": "yuki",
+        "text": "장위는 책을 많이 읽는 편이어서 책을 사 줄 거예요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper7_06_p1",
+        "sentence": "저는 용돈을 많이 받는 편이에요.",
+        "answer": [
+          "저는",
+          "용돈을",
+          "많이",
+          "받는",
+          "편이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p2",
+        "sentence": "장위는 책을 많이 읽는 편이에요.",
+        "answer": [
+          "장위는",
+          "책을",
+          "많이",
+          "읽는",
+          "편이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p3",
+        "sentence": "용돈을 받으면 용돈 기입장을 써요.",
+        "answer": [
+          "용돈을",
+          "받으면",
+          "용돈",
+          "기입장을",
+          "써요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p4",
+        "sentence": "돈을 모아서 장위 생일 선물을 살 거예요.",
+        "answer": [
+          "돈을",
+          "모아서",
+          "장위",
+          "생일",
+          "선물을",
+          "살",
+          "거예요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p5",
+        "sentence": "용돈이 1000원밖에 안 남았어요.",
+        "answer": [
+          "용돈이",
+          "1000원밖에",
+          "안",
+          "남았어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p6",
+        "sentence": "들어온 돈은 수입 칸에 써요.",
+        "answer": [
+          "들어온",
+          "돈은",
+          "수입",
+          "칸에",
+          "써요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p7",
+        "sentence": "나간 돈은 지출 칸에 써요.",
+        "answer": [
+          "나간",
+          "돈은",
+          "지출",
+          "칸에",
+          "써요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p8",
+        "sentence": "이번 달에 10000원을 받았어요.",
+        "answer": [
+          "이번",
+          "달에",
+          "10000원을",
+          "받았어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper7_06_p9",
+        "sentence": "생일 선물을 사서 3000원을 썼어요.",
+        "answer": [
+          "생일",
+          "선물을",
+          "사서",
+          "3000원을",
+          "썼어요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_01",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "식사 예절",
+    "icon": "🍚",
+    "location": "집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "jangwi",
+        "name": "장위",
+        "avatar": "장"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "jangwi",
+        "text": "식사할 때 지켜야 하는 예절이 있어요?"
+      },
+      {
+        "character": "teacher",
+        "text": "어른이 식사를 시작할 때까지 기다려야 해요."
+      },
+      {
+        "character": "jangwi",
+        "text": "또 다른 예절은요?"
+      },
+      {
+        "character": "teacher",
+        "text": "밥을 먹을 때 소리를 내지 않아야 해요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_01_p1",
+        "sentence": "어른의 식사를 시작할 때까지 기다려야 해요.",
+        "answer": [
+          "어른의",
+          "식사를",
+          "시작할",
+          "때까지",
+          "기다려야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p2",
+        "sentence": "밥을 먹을 때 소리를 내지 않아야 해요.",
+        "answer": [
+          "밥을",
+          "먹을",
+          "때",
+          "소리를",
+          "내지",
+          "않아야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p3",
+        "sentence": "음식을 뒤적거리지 않아야 해요.",
+        "answer": [
+          "음식을",
+          "뒤적거리지",
+          "않아야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p4",
+        "sentence": "음식을 골고루 먹어야 해요.",
+        "answer": [
+          "음식을",
+          "골고루",
+          "먹어야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p5",
+        "sentence": "다 먹은 후에 감사 인사를 해야 해요.",
+        "answer": [
+          "다",
+          "먹은",
+          "후에",
+          "감사",
+          "인사를",
+          "해야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p6",
+        "sentence": "밥 먹기 전에 손을 씻어야 해요.",
+        "answer": [
+          "밥",
+          "먹기",
+          "전에",
+          "손을",
+          "씻어야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_01_p7",
+        "sentence": "할아버지, 저는 다 먹었으니까 먼저 갈게요.",
+        "answer": [
+          "할아버지,",
+          "저는",
+          "다",
+          "먹었으니까",
+          "먼저",
+          "갈게요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_02",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "친구 집 방문 예절",
+    "icon": "🏠",
+    "location": "친구 집",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "emma",
+        "name": "엠마",
+        "avatar": "엠"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "emma",
+        "text": "엄마, 다니엘 집에서 놀다 올게요."
+      },
+      {
+        "character": "mom",
+        "text": "그래. 그런데 양말을 안 신었어? 친구 집에 갈 때는 양말을 신는 게 좋아."
+      },
+      {
+        "character": "emma",
+        "text": "네, 알겠어요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_02_p1",
+        "sentence": "친구 집에 가기 전에 미리 전화를 하는 게 좋아요.",
+        "answer": [
+          "친구",
+          "집에",
+          "가기",
+          "전에",
+          "미리",
+          "전화를",
+          "하는",
+          "게",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_02_p2",
+        "sentence": "맨발로 가지 않고 양말을 신는 게 좋아요.",
+        "answer": [
+          "맨발로",
+          "가지",
+          "않고",
+          "양말을",
+          "신는",
+          "게",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_02_p3",
+        "sentence": "친구 부모님을 만나면 인사를 잘 해야 해요.",
+        "answer": [
+          "친구",
+          "부모님을",
+          "만나면",
+          "인사를",
+          "잘",
+          "해야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_02_p4",
+        "sentence": "친구 부모님의 허락을 받고 친구 집 물건을 만져야 해요.",
+        "answer": [
+          "친구",
+          "부모님의",
+          "허락을",
+          "받고",
+          "친구",
+          "집",
+          "물건을",
+          "만져야",
+          "해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_02_p5",
+        "sentence": "이른 아침이나 늦은 저녁에는 가지 않는 게 좋아요.",
+        "answer": [
+          "이른",
+          "아침이나",
+          "늦은",
+          "저녁에는",
+          "가지",
+          "않는",
+          "게",
+          "좋아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_03",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "공공장소",
+    "icon": "🏛️",
+    "location": "공공장소",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "teacher",
+        "name": "선생님",
+        "avatar": "선"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "teacher",
+        "text": "도서관에서 조용히 책을 봐요."
+      },
+      {
+        "character": "teacher",
+        "text": "지하철을 탈 때 차례를 지켜요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_03_p1",
+        "sentence": "도서관에서 조용히 책을 봐요.",
+        "answer": [
+          "도서관에서",
+          "조용히",
+          "책을",
+          "봐요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p2",
+        "sentence": "지하철을 탈 때 차례를 지켜요.",
+        "answer": [
+          "지하철을",
+          "탈",
+          "때",
+          "차례를",
+          "지켜요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p3",
+        "sentence": "식당에서 뛰어다니지 않아요.",
+        "answer": [
+          "식당에서",
+          "뛰어다니지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p4",
+        "sentence": "버스 안에서 시끄럽게 하지 않아요.",
+        "answer": [
+          "버스",
+          "안에서",
+          "시끄럽게",
+          "하지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p5",
+        "sentence": "음식을 사 먹는 곳은 음식점이에요.",
+        "answer": [
+          "음식을",
+          "사",
+          "먹는",
+          "곳은",
+          "음식점이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p6",
+        "sentence": "책을 읽거나 빌리는 곳은 도서관이에요.",
+        "answer": [
+          "책을",
+          "읽거나",
+          "빌리는",
+          "곳은",
+          "도서관이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p7",
+        "sentence": "비행기를 타는 곳은 공항이에요.",
+        "answer": [
+          "비행기를",
+          "타는",
+          "곳은",
+          "공항이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_03_p8",
+        "sentence": "버스를 기다리는 곳은 버스 정류장이에요.",
+        "answer": [
+          "버스를",
+          "기다리는",
+          "곳은",
+          "버스",
+          "정류장이에요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_04",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "놀이터 예절",
+    "icon": "🛝",
+    "location": "놀이터",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "taisun",
+        "name": "타이선",
+        "avatar": "타"
+      },
+      {
+        "id": "friend",
+        "name": "친구",
+        "avatar": "친"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "friend",
+        "text": "친구에게 모래를 던지지 마."
+      },
+      {
+        "character": "taisun",
+        "text": "네, 친구에게 모래를 던지지 않을게요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_04_p1",
+        "sentence": "미끄럼틀에서 거꾸로 올라가지 않아요.",
+        "answer": [
+          "미끄럼틀에서",
+          "거꾸로",
+          "올라가지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_04_p2",
+        "sentence": "친구에게 모래를 던지지 않아요.",
+        "answer": [
+          "친구에게",
+          "모래를",
+          "던지지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_04_p3",
+        "sentence": "놀이 기구에 낙서하지 않아요.",
+        "answer": [
+          "놀이",
+          "기구에",
+          "낙서하지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_04_p4",
+        "sentence": "놀이터에서 친구와 싸우지 않아요.",
+        "answer": [
+          "놀이터에서",
+          "친구와",
+          "싸우지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_04_p5",
+        "sentence": "놀이 기구를 혼자만 계속 타지 않아요.",
+        "answer": [
+          "놀이",
+          "기구를",
+          "혼자만",
+          "계속",
+          "타지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_04_p6",
+        "sentence": "앞으로 놀이 기구를 혼자만 타지 않을게요.",
+        "answer": [
+          "앞으로",
+          "놀이",
+          "기구를",
+          "혼자만",
+          "타지",
+          "않을게요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_05",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "버스 예절",
+    "icon": "🚌",
+    "location": "버스",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "announcer",
+        "name": "방송",
+        "avatar": "방"
+      },
+      {
+        "id": "student",
+        "name": "학생",
+        "avatar": "학"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "announcer",
+        "text": "버스가 멈출 때까지 기다려요."
+      },
+      {
+        "character": "announcer",
+        "text": "새치기하지 말고 차례를 지키세요."
+      },
+      {
+        "character": "announcer",
+        "text": "그냥 서 있지 말고 손잡이를 꼭 잡으세요."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_05_p1",
+        "sentence": "버스가 멈출 때까지 기다려요.",
+        "answer": [
+          "버스가",
+          "멈출",
+          "때까지",
+          "기다려요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p2",
+        "sentence": "새치기하지 말고 차례를 지키세요.",
+        "answer": [
+          "새치기하지",
+          "말고",
+          "차례를",
+          "지키세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p3",
+        "sentence": "뒷문으로 타지 말고 앞문으로 타세요.",
+        "answer": [
+          "뒷문으로",
+          "타지",
+          "말고",
+          "앞문으로",
+          "타세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p4",
+        "sentence": "그냥 서 있지 말고 손잡이를 꼭 잡으세요.",
+        "answer": [
+          "그냥",
+          "서",
+          "있지",
+          "말고",
+          "손잡이를",
+          "꼭",
+          "잡으세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p5",
+        "sentence": "버스가 움직일 때 자리에서 일어나지 마세요.",
+        "answer": [
+          "버스가",
+          "움직일",
+          "때",
+          "자리에서",
+          "일어나지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p6",
+        "sentence": "앞사람을 밀지 말고 한 줄로 서세요.",
+        "answer": [
+          "앞사람을",
+          "밀지",
+          "말고",
+          "한",
+          "줄로",
+          "서세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_05_p7",
+        "sentence": "차도에 내려가지 마세요.",
+        "answer": [
+          "차도에",
+          "내려가지",
+          "마세요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
+  },
+  {
+    "id": "upper8_06",
+    "unit": 8,
+    "unit_title": "예절",
+    "title": "음식점 예절",
+    "icon": "🍽️",
+    "location": "음식점",
+    "level": 2,
+    "grade": "upper",
+    "characters": [
+      {
+        "id": "mom",
+        "name": "엄마",
+        "avatar": "엄"
+      },
+      {
+        "id": "child",
+        "name": "아이",
+        "avatar": "아"
+      }
+    ],
+    "dialogue": [
+      {
+        "character": "mom",
+        "text": "음식을 쏟지 말고 조심해서 먹어."
+      },
+      {
+        "character": "mom",
+        "text": "신발을 신고 의자 위에 올라가면 안 돼."
+      }
+    ],
+    "puzzles": [
+      {
+        "id": "upper8_06_p1",
+        "sentence": "음식점에서 돌아다니지 않아요.",
+        "answer": [
+          "음식점에서",
+          "돌아다니지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_06_p2",
+        "sentence": "의자에 올라가지 않아요.",
+        "answer": [
+          "의자에",
+          "올라가지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_06_p3",
+        "sentence": "뜨거운 음식을 만지지 않아요.",
+        "answer": [
+          "뜨거운",
+          "음식을",
+          "만지지",
+          "않아요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_06_p4",
+        "sentence": "음식을 쏟지 않게 조심해요.",
+        "answer": [
+          "음식을",
+          "쏟지",
+          "않게",
+          "조심해요."
+        ],
+        "level": 2,
+        "audio_path": null
+      },
+      {
+        "id": "upper8_06_p5",
+        "sentence": "신발을 신고 의자 위에 올라가면 안 돼요.",
+        "answer": [
+          "신발을",
+          "신고",
+          "의자",
+          "위에",
+          "올라가면",
+          "안",
+          "돼요."
+        ],
+        "level": 2,
+        "audio_path": null
+      }
+    ]
   }
 ]
