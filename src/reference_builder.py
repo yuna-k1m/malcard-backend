@@ -98,15 +98,7 @@ def _apply_phonological_rules(items: list[Syllable | str], *, aggressive: bool) 
                 right.onset = TENSE_MAP[right.onset]
 
         if aggressive and left.coda in LIAISON_CODA and right.onset == "ㅇ":
-            move = left.coda
-            if move in {"ㄱ", "ㄲ", "ㅋ"}:
-                right.onset = "ㄱ"
-            elif move in {"ㄷ", "ㅅ", "ㅆ", "ㅈ", "ㅊ", "ㅌ"}:
-                right.onset = "ㄷ"
-            elif move in {"ㅂ", "ㅍ"}:
-                right.onset = "ㅂ"
-            else:
-                right.onset = move
+            right.onset = left.coda
             left.coda = ""
     return items
 

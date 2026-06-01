@@ -105,7 +105,13 @@ def score_reference_candidates(reference_candidates: list[PronunciationCandidate
     for candidate in reference_candidates:
         result = align_ipa_sequences(candidate.ipa.tokens, hyp_tokens, cost_model_module=cost_model_module, profile=profile)
         result.selected_reference_candidate = candidate
-        if best is None or result.total_cost < best.total_cost:
+        if best is None or (
+            result.normalized_score,
+            -result.total_cost,
+        ) > (
+            best.normalized_score,
+            -best.total_cost,
+        ):
             best = result
     assert best is not None
     return best

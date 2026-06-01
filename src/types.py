@@ -5,6 +5,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+import numpy as np
+
 
 @dataclass
 class PhoneToken:
@@ -49,11 +51,16 @@ class AudioRecognitionResult:
     tokens: list[PhoneToken]
     raw_label_text: str = ""
     raw_labels: list[str] = field(default_factory=list)
-    logits: list[list[float]] | None = None
+    logits: np.ndarray | None = None
     frame_confidence: list[float] | None = None
+    frame_energy: list[float] | None = None
     frame_timestamps: list[float] | None = None
     sampling_rate: int = 16000
     quality_report: AudioQualityReport | None = None
+    trim_start_sec: float = 0.0
+    trim_end_sec: float | None = None
+    original_duration_sec: float | None = None
+    trimmed_duration_sec: float | None = None
 
 
 @dataclass
@@ -87,6 +94,7 @@ class ForcedAlignmentResult:
     avg_token_confidence: float
     coverage: float
     blank_ratio: float
+    alignment_debug: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass

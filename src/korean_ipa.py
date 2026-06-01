@@ -146,6 +146,7 @@ def pronunciation_to_ipa(pronunciation: str) -> IPASequence:
 
         decomposed = decompose_syllable(char)
         if decomposed is None:
+            # punctuation, Latin letters, etc.
             symbols.append((char, "other"))
             continue
 
@@ -156,14 +157,32 @@ def pronunciation_to_ipa(pronunciation: str) -> IPASequence:
 
         if onset_ipa:
             symbols.append((onset_ipa, "onset"))
+
         symbols.append((vowel_ipa, "nucleus"))
+
         if coda_ipa:
             symbols.append((coda_ipa, "coda"))
 
-    sequence = build_ipa_sequence(" ".join(symbol for symbol, _ in symbols))
+    raw_ipa = " ".join(symbol for symbol, _ in symbols)
+    sequence = build_ipa_sequence(raw_ipa)
+
+    # Important:
+    # scoring.py relies on syllable_position == "coda"
+    # to calculate coda-specific scores.
     if len(sequence.tokens) == len(symbols):
         for token, (_, position) in zip(sequence.tokens, symbols):
             token.syllable_position = position
+    else:
+        # Fallback: even if tokenization length changes unexpectedly,
+        # mark unreleased final stops and final l as coda-like.
+        for token in sequence.tokens:
+            if token.symbol.endswith("̚") or token.symbol == "l":
+                token.syllable_position = "coda"
+            elif token.category == "vowel":
+                token.syllable_position = "nucleus"
+            elif token.syllable_position == "unknown":
+                token.syllable_position = "onset"
+
     return sequence
 
 
