@@ -48,7 +48,7 @@ def _normalize_f0_zscore(f0: np.ndarray) -> np.ndarray:
 def extract_f0(wav_path: str | Path) -> F0Result:
     snd = parselmouth.Sound(str(wav_path))
     snd_resampled = snd.resample(new_frequency=16000, precision=50)
-    pitch = snd_resampled.to_pitch()
+    pitch = snd_resampled.to_pitch(time_step=0.005)  # 5ms로 줄이면 2배 촘촘
 
     times = pitch.xs()
     f0_raw = pitch.selected_array['frequency']

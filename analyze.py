@@ -1,15 +1,41 @@
-"""억양(Prosody) 분석 파이프라인 단일 진입점.
+"""억양(Prosody) 분석 파이프라인 단일 진입점 — lens-rule paradigm v3.
+
+backend가 호출하는 단일 함수. 반환은 UI에 그대로 전달 가능한 dict:
+    {
+      "reference_text": str,
+      "records": list[record + feedback_text],  # 5 rule outlier + NL 문장
+      "summary_when_no_outlier": str | None,    # records=[] 일 때만
+      "prosody_plot": dict,                      # MFCC CMVN path 위 F0 + 어절 경계
+    }
 
 의존성:
-    core/   — F0 추출, segmental alignment, 메트릭 계산 (외부 의존 없음)
-    src/    — AudioToIPARecognizer (Wav2Vec2), forced alignment, Korean IPA 변환
+    core/ — F0/MFCC 추출, segmenter, rules, feedback (외부 라이브러리 사용)
+    src/  — AudioToIPARecognizer (Wav2Vec2), forced alignment, Korean IPA 변환
+
+backend가 추가로 install해야 하는 외부 라이브러리 (기존 backend엔 없음):
+    gtts           - core/tts.py (google-cloud-texttospeech 대체, 무료 한국어 TTS)
+    dtaidistance   - core/rules.py, core/aligner.py (lens-rule DTW)
+    plotly         - core/mfcc.py 등 top-level import (analyze.py 경로엔 미사용이나
+                     모듈 로드 시 import 발생 — figure 함수를 함수 내부 lazy import로
+                     옮기면 plotly 제외 가능)
+
+이미 backend가 사용 중일 라이브러리 (librosa, parselmouth, scipy, numpy 등)는 그대로.
+
+config/thresholds.toml은 rule 평가 파라미터 (외부화). repo root에서 상대경로로 자동 로드.
+
+reference_text contract:
+    - 어절 단위 띄어쓰기 필수. EojeolSegmenter가 split()으로 어절 분리하므로,
+      띄어쓰기 없으면 발화 전체가 어절 1개로 취급되어 어절 단위 rule
+      (pitch_rising/falling/offset/elongation/slow)이 사실상 무력화된다.
+    - 구두점(. · , ! ? 。)은 함수 내부에서 자동 제거하므로 그대로 전달해도 무방하다.
+      반환의 "reference_text"는 원본 그대로 (UI 표시용), 내부 처리만 cleaned.
 
 사용법:
     from pronunciation_backend_pipeline import get_prosody_input
     from analyze import analyze
 
     prosody_input = get_prosody_input(audio_path, reference_text)
-    results = analyze(prosody_input)
+    result = analyze(prosody_input)
 """
 from __future__ import annotations
 
@@ -18,11 +44,6 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from core.comparator import IntonationComparator
-from core.f0_extractor import extract_f0
-from core.metrics import compute_metrics, to_dict
-from core.syllable_utils import segments_to_syllable_boundaries
-from core.tts import generate_tts
 from pronunciation_backend_pipeline import get_default_recognizer
 from src.forced_alignment import force_align_candidate
 from src.korean_ipa import pronunciation_to_ipa
@@ -55,8 +76,8 @@ def analyze(
     *,
     recognizer: AudioToIPARecognizer | None = None,
     tts_cache_dir: str | Path | None = None,
-) -> list[dict]:
-    """prosody_input dict → 음절별 억양 분석 결과.
+) -> dict:
+    """prosody_input dict → lens-rule 평가 + NL feedback + UI plot data 통합 dict.
 
     Args:
         prosody_input: `pronunciation_backend_pipeline.get_prosody_input()` 또는
@@ -64,112 +85,108 @@ def analyze(
                        반드시 `audio_file_path` 키를 포함해야 한다
                        (build_backend_payload가 런타임에 주입하는 절대 경로).
         recognizer:    AudioToIPARecognizer 인스턴스. None이면
-                       get_default_recognizer() 싱글톤을 사용한다.
-                       팀원 파이프라인과 같은 프로세스에서 호출할 때는
-                       None으로 두어 모델 중복 로드를 방지한다.
-        tts_cache_dir: TTS WAV 캐시 디렉토리 경로. None이면 기본값
-                       `artifacts/tts_cache`를 사용한다.
-                       프로덕션에서는 절대 경로 또는 공유 스토리지 경로를 전달하라.
+                       get_default_recognizer() 싱글톤. 같은 프로세스에서
+                       음소 평가 파이프라인과 공유할 때 모델 중복 로드 회피.
+        tts_cache_dir: TTS WAV 캐시 디렉토리. None이면 artifacts/tts_cache.
 
     Returns:
-        음절별 dict 리스트. 음절 수 = min(native 음절 수, learner 음절 수).
-        모든 값은 JSON 직렬화 가능 (NaN → None).
-
-        각 dict 필드:
-            syllable_idx        (int)          음절 인덱스 (0부터)
-            syllable_label      (str)          해당 음절의 한글 문자 (reference_text 기준)
-            native_start        (float)        원어민 오디오 내 음절 시작 시각 (초)
-            learner_start       (float)        학습자 오디오 내 음절 시작 시각 (초)
-            native_f0           (list[float])  50프레임 z-score F0, 무성=0 (원어민 TTS)
-            learner_f0          (list[float])  50프레임 z-score F0, 무성=0 (학습자)
-            joint_voiced_mask   (list[bool])   두 화자 모두 유성인 프레임.
-                                               False 구간은 프런트엔드에서 반투명/점선 처리
-                                               등으로 "비교 불가 구간"임을 표시하는 데 활용.
-            native_duration     (float)        원어민 음절 지속시간 (초)
-            learner_duration    (float)        학습자 음절 지속시간 (초)
-            rmse                (float|None)   F0 RMSE (z-score 단위); 유성 프레임 없으면 None
-            pearson             (float|None)   억양 흐름 유사도 -1~1; 유성 프레임 < 5이면 None
-            slope_diff          (float|None)   피치 변화율 차이 native-learner; 유성 프레임 < 3이면 None
-            voiced_frame_count  (int)          유효 유성 프레임 수
-            duration_ratio      (float|None)   learner/native 지속시간 비율; native=0이면 None
+        {
+          "reference_text": str,
+          "records": [
+            {
+              "eojeol_idx": int,
+              "rule_label": "pitch_rising_excess" | "pitch_falling_excess"
+                          | "pitch_offset" | "syllable_elongation" | "eojeol_slow",
+              "severity": "minor" | "major",
+              "syllable_hint": str | None,
+              "trigger_lens": str,
+              "evidence_metrics": {...},  # rule별 dict
+              "feedback_text": str        # deterministic 한국어 NL
+            }, ...
+          ],
+          "summary_when_no_outlier": str,  # records=[] 일 때만 존재
+          "prosody_plot": {
+            "learner_f0_zscore":   list[float],
+            "native_f0_zscore":    list[float],
+            "learner_time_at_step": list[float],  # 초
+            "eojeol_boundaries": [
+              {"path_step": int, "label": str | None}, ...
+            ]
+          }
+        }
     """
-
-    # ── pipeline 개요 ────────────────────────────────────────────────────────
-    # 음소분석 파이프라인의 prosody_input은 learner 정보만 담고 있어
-    # 억양 비교를 위한 native 기준값이 없다.
-    # 이를 보완하기 위해 reference text로 TTS를 합성하고,
-    # learner에 적용한 것과 동일한 forced alignment를 native에도 수행하여
-    # 양쪽의 음소 경계를 확보한다.
-    # 이 때문에 위에 _forced_align 함수는 억양분석 모듈(core)이 아닌
-    # 음소분석 모듈(src)에 의존한다.
-    #
-    # 음소 경계 → 음절 경계로 변환한 뒤,
-    # z-score 정규화(화자 간 음역대 차이 제거) + segmental alignment(음절 인덱스 1:1 매핑)로
-    # native와 learner를 동일한 기준 위에 놓고 음절 단위로 비교한다.
-    #
-    # 음절별 비교 지표 3가지:
-    #   RMSE        — F0 절대 차이. 억양이 얼마나 크게 벗어났는지
-    #   Pearson     — 억양 흐름 유사도(-1~1). 올라가고 내려가는 방향이 같은지
-    #   slope_diff  — 피치 변화율 차이(native - learner). 상승/하강 강도 비교
-    #
-    # 시각화와 API 전달에 필요한 모든 feature를 JSON 직렬화 가능한
-    # list[dict] 형태로 반환한다.
+    # ── 파이프라인 개요 ──────────────────────────────────────────────────────
+    # 1. prosody_input의 learner FA + reference text 파싱
+    # 2. native(TTS) 합성 + 동일 forced alignment → 양쪽 음소 경계 확보
+    # 3. F0/MFCC 추출
+    # 4. 어절·음절 segmenter 인스턴스 → 경계 spans 계산
+    # 5. lens-rule paradigm v3: rules.evaluate → list[Record]
+    # 6. feedback.build_payload → records[].feedback_text + (records=[] 시) praise
+    # 7. mfcc.build_prosody_plot_data → MFCC CMVN path 위 F0 lookup + 어절 boundary
+    # 8. 통합 dict 반환
 
     _rec = recognizer or get_default_recognizer()
     _cache_dir = Path(tts_cache_dir) if tts_cache_dir is not None else _TTS_CACHE_DIR
 
     # ── Step 1. prosody_input 파싱 ───────────────────────────────────────────
-    # 음소분석 파이프라인이 런타임에 주입한 learner wav 절대 경로와
-    # 강제 정렬 결과(phoneme_segments)를 읽는다.
     text = prosody_input["reference_text"]
     learner_wav = Path(prosody_input["audio_file_path"])
     learner_segments = prosody_input["phoneme_segments"]
 
-    # ── Step 2. native(TTS) 생성 + forced alignment ──────────────────────────
-    # TTS로 원어민 기준 오디오 합성 → Wav2Vec2 CTC로 음소별 시간 경계 추출
-    # TTS 결과는 (text, voice, speed) 해시 기반으로 캐시됨 (재호출 비용 없음)
+    # ── Step 2. native(TTS) + forced alignment ───────────────────────────────
+    # parselmouth/dtaidistance가 torch보다 먼저 import되면 macOS arm64 segfault.
+    # 모델(recognizer)은 이미 로드된 상태에서 core/* 지연 import한다.
+    from core.f0_extractor import extract_f0
+    from core.feedback import build_payload as build_feedback_payload
+    from core.mfcc import build_prosody_plot_data, extract_mfcc
+    from core.rules import evaluate as evaluate_rules
+    from core.segmenter import EojeolSegmenter, SyllableSegmenter
+    from core.tts import generate_tts
+
     native_wav = generate_tts(text, cache_dir=_cache_dir)
     native_fa = _forced_align(native_wav, text, _rec)
     native_segments = [asdict(seg) for seg in native_fa.segments]
 
-    # ── Step 3. F0 추출 + z-score 정규화 ────────────────────────────────────
-    # parselmouth(Praat)로 각 wav의 피치 곡선 추출
-    # 화자 간 음역대 차이를 제거하기 위해 z-score 정규화 적용
+    # ── Step 3. F0 / MFCC 추출 ───────────────────────────────────────────────
     native_f0 = extract_f0(native_wav)
     learner_f0 = extract_f0(learner_wav)
+    native_mfcc = extract_mfcc(native_wav)
+    learner_mfcc = extract_mfcc(learner_wav)
 
-    # ── Step 4. 음소 segments → 음절 경계 변환 ──────────────────────────────
-    # 각 음절의 (t_start, t_end) 를 확보. nucleus(모음) 기준으로 경계를 묶는다.
-    native_boundaries = segments_to_syllable_boundaries(native_segments)
-    learner_boundaries = segments_to_syllable_boundaries(learner_segments)
+    # ── Step 4. Segmenter (어절·음절 경계) ───────────────────────────────────
+    # 구두점은 pronunciation_to_ipa의 position 할당을 깨뜨리므로 사전 제거.
+    clean_text = "".join(c for c in text if c not in ".·,!?。")
+    positions = [t.syllable_position for t in pronunciation_to_ipa(clean_text).tokens]
+    syllable_labels = [c for c in text if c.strip() and c not in ".·,!?。"]
 
-    # ── Step 5. Segmental Alignment — 음절별 F0 비교 ─────────────────────────
-    # 음절 인덱스 1:1 매핑. 각 음절을 50프레임으로 리샘플 후 비교.
-    # zip 기준이므로 음절 수 불일치 시 min(native, learner) 개수로 맞춰진다.
-    comparisons = IntonationComparator().compare(
-        native_f0, learner_f0,
-        native_boundaries=native_boundaries,
-        learner_boundaries=learner_boundaries,
+    eojeol_seg = EojeolSegmenter(native_segments, learner_segments, positions, clean_text)
+    syllable_seg = SyllableSegmenter(
+        native_segments, learner_segments, positions, syllable_labels,
     )
 
-    # ── Step 6. 멀티 메트릭 계산 + 직렬화 ───────────────────────────────────
-    # 음절별 RMSE / Pearson / slope_diff / duration_ratio 산출
-    # NaN → None 변환으로 JSON 직렬화 보장
-    metrics = compute_metrics(comparisons)
-    result = to_dict(comparisons, metrics)
+    # ── Step 5. Rule 평가 (lens-rule paradigm v3) ────────────────────────────
+    records = evaluate_rules(
+        native_f0, learner_f0,
+        eojeol_native_spans=eojeol_seg.native_spans(),
+        eojeol_learner_spans=eojeol_seg.learner_spans(),
+        eojeol_labels=eojeol_seg.labels(),
+        syllable_native_spans=syllable_seg.native_spans(),
+        syllable_learner_spans=syllable_seg.learner_spans(),
+        syllable_labels=syllable_seg.labels(),
+        eojeol_text=clean_text,
+    )
 
-    # ── Step 7. 시각화 보조 필드 주입 ───────────────────────────────────────
-    # syllable_label : reference_text → 공백·구두점 제거 → 음절 단위 한글 문자
-    # native_start   : 원어민 오디오 내 음절 시작 시각 (초) — 시간축 배치용
-    # learner_start  : 학습자 오디오 내 음절 시작 시각 (초) — 시간축 배치용
-    syllable_labels = [c for c in text if c.strip() and c not in ".·,!?。"]
-    for item in result:
-        idx = item["syllable_idx"]
-        item["syllable_label"] = syllable_labels[idx]
-        item["native_start"] = native_boundaries[idx][0]
-        item["learner_start"] = learner_boundaries[idx][0]
+    # ── Step 6. NL feedback 합성 ─────────────────────────────────────────────
+    payload = build_feedback_payload(records, text)
 
-    return result
+    # ── Step 7. UI plot data (MFCC CMVN path 위 F0 + 어절 boundary) ─────────
+    payload["prosody_plot"] = build_prosody_plot_data(
+        learner_mfcc, native_mfcc, learner_f0, native_f0,
+        eojeol_learner_spans=eojeol_seg.learner_spans(),
+        eojeol_labels=eojeol_seg.labels(),
+    )
+
+    return payload
 
 
 if __name__ == "__main__":
@@ -180,12 +197,10 @@ if __name__ == "__main__":
         data = json.load(f)
 
     pi = data["prosody_input"]
-    # audio_file_path는 런타임에 주입되므로 저장된 JSON에는 없을 수 있다.
-    # 없으면 artifact_bundle에서 경로를 복원한다.
     if "audio_file_path" not in pi:
         pi["audio_file_path"] = str(
             Path(path).parent / data["artifact_bundle"]["audio_file_name"]
         )
 
-    results = analyze(pi)
-    print(json.dumps(results, indent=2, ensure_ascii=False))
+    result = analyze(pi)
+    print(json.dumps(result, indent=2, ensure_ascii=False))

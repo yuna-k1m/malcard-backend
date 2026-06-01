@@ -49,7 +49,7 @@ class IntonationComparator:
         n_frames: int,
     ) -> tuple[np.ndarray, np.ndarray]:
         mask = (f0_result.times >= t_start) & (f0_result.times < t_end)
-        f0 = f0_result.f0[mask]
+        f0 = f0_result.f0[mask] # 음절 단위로 normalized pitch 추출
         voiced = f0_result.voiced_mask[mask]
 
         if len(f0) == 0:
